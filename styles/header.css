@@ -191,7 +191,7 @@ body {
   overflow-x: hidden;
 }
 
-/*@media (min-width: 475px) {
+@media (min-width: 475px) {
 
 }
 
@@ -204,115 +204,129 @@ body {
 }
 
 @media (min-width: 1440px) {
+  .text-container {
+    width: 100%;
+    height: 100%;
+    column-count: 2; 
+    column-gap: 10px; 
+    height: 700px; 
+    width: 680px;
+    overflow: hidden;
+    padding: 10px;
+    box-sizing: border-box;
+  } 
+
+  .text-container p {
+    margin: 0;
+    column-fill: balance;
+  }
+
   h3 {
-    font-size: 35px;
+    font-size: 25px;
     padding-top: 5px;
     text-shadow: 2px 2px 0px black, 4px 4px 0px black, 6px 6px 0px black;
   }
-  
+
   h4{
-    font-size: 22px;
+    font-size: 18px;
     margin-top: 12px;
     text-shadow: 2px 2px 0px black, 4px 4px 0px black, 6px 6px 0px black;
-  
+
   }
-  
+
   h5{
     font-size: 25px;
     margin-top: 12px;
   }
-  
+
   .purpleTop{ 
-    position: absolute;
-    width: 2560px;
+    position: fixed;
+    width: 1699px;
     height: 35px;
-    z-index: -3;
     left: 0px;
-    top: 0px;
   }
-  
+
   .purpleBot{ 
-    position: absolute;
-    width: 2560px;
+    position: fixed;
+    width: 1699px;
     height: 35px;
     z-index: -5;
     left: 0px;
     top: 235px;
   }
-  
+
   .purpleLeft{ 
-    position: absolute;
+    position: fixed;
     width: 40px;
     height: 235px;
-    z-index: -3;
     left: 10px;
-    top: 0px;
   }
-  
+
   .purpleRight{ 
+    position: fixed;
     width: 27px;
     height: 235px;
-    left: 2510px;
-    top: 0px;
+    left: 1680px;
   }
-  
+
   .purpleTrapezium {
+    position: fixed;
     width: 560px;
     height: 70px;
-    left: 970px;
+    left: 580px;
     z-index: -5;
     top: 175px;
   }
-  
+
   .gold {
+    position: fixed;
     width: 2rem;
-    height: 60.5rem;
+    height: 59.45rem;
     margin: 0;
     top: 0rem;
     left: -0.2rem;
   }
-  
+
   .gold2 {
     width: 2rem;
-    height: 61.45rem;
+    height: 59.45rem;
     margin: 0;
-    top: 0rem;
-    left: 158.1rem;
+    left: 106.1rem;
     margin: 1px;
     padding: 1px;
   }
-  
+
   .header { 
     flex-direction: column;
     margin: 0;
     top: 0;
   }
-  
+
   h1 {
     white-space: nowrap;
     text-align: center;
   }
-  
+
   h2 {
     white-space: nowrap;
     top: 195px;
-    left: 1080px;
+    left: 700px;
     text-align: center;
   }
-  
+
   .header__styles {
-    font: var(--size-9xl) sans-serif;
+    font: var(--size-8xl) sans-serif;
     top: 2.5rem;
-    left: 40rem;
+    left: 25rem;
   }
-  
+
   .header__styles2 {
     display: absolute;
     font: 28px sans-serif;
     margin: none;
-    font-size: var(--size-5xl);
+    font-size: var(--size-4xl);
   }
-  
+
   .header__square {
     height: 70px;
     width: 100%;
@@ -320,48 +334,49 @@ body {
     display:inherit;
     z-index: -1;
   }
-  
+
   .header__img {
-    position: absolute;
+    position: fixed;
     width: 9rem;;
     height: 9.5rem;
     left: 8.2rem;
-    z-index: 1;
     top: 3.4rem;
   }
-  
+
   .header__img2 {
     position: fixed;
     left: 0rem;
-    top: -4rem;
-    width: 2560px;
+    top: -1rem;
+    width: 1700px;
     object-position: 70%;
     z-index: -3;
     object-fit: contain;
-    clip: rect(0, 2600px, 300px, 0);
-    transform: scale(2) translate(2);
+    clip: rect(0, 1920px, 260px, 0);
+    transform: scale(1) translate(2);
   }
-  
+
   .header__img3 {
+    position: fixed;
     width: 15.5rem;;
     height: 10.5rem;
-    left: 140rem;
+    left: 90rem;
     top: 3.1rem;
   }
-  
+
   body {
     background-image: url('/styles/media/BackgroundXXL.png');
     background-repeat: no-repeat;
     background-position: top;
     background-position-y: -27px;
     background-size: cover;
+    overflow-x: hidden;
     background-attachment: fixed;
     background-color: black;
     z-index: 3;
   }
-}*/
+}
 
-/*@media (min-width:1920px) {
+@media (min-width:1920px) {
   .text-container {
     width: 100%;
     height: 100%;
@@ -372,36 +387,37 @@ body {
     overflow: hidden;
     padding: 10px;
     box-sizing: border-box;
-}
+  } 
 
-.text-container p {
-  margin: 0;
-  column-fill: 
-}
+  .text-container p {
+    margin: 0;
+    column-fill: balance;
+  }
+
   h3 {
     font-size: 25px;
     padding-top: 5px;
     text-shadow: 2px 2px 0px black, 4px 4px 0px black, 6px 6px 0px black;
   }
-  
+
   h4{
     font-size: 18px;
     margin-top: 12px;
     text-shadow: 2px 2px 0px black, 4px 4px 0px black, 6px 6px 0px black;
-  
+
   }
-  
+
   h5{
     font-size: 25px;
     margin-top: 12px;
   }
-  
+
   .purpleTop{ 
     position: fixed;
     width: 1920px;
     height: 35px;
   }
-  
+
   .purpleBot{ 
     position: fixed;
     width: 1920px;
@@ -410,21 +426,21 @@ body {
     left: 0px;
     top: 235px;
   }
-  
+
   .purpleLeft{ 
     position: fixed;
     width: 40px;
     height: 235px;
     left: 10px;
   }
-  
+
   .purpleRight{ 
     position: fixed;
     width: 27px;
     height: 235px;
     left: 1870px;
   }
-  
+
   .purpleTrapezium {
     position: fixed;
     width: 560px;
@@ -433,7 +449,7 @@ body {
     z-index: -5;
     top: 175px;
   }
-  
+
   .gold {
     position: fixed;
     width: 2rem;
@@ -442,7 +458,7 @@ body {
     top: 0rem;
     left: -0.2rem;
   }
-  
+
   .gold2 {
     width: 2rem;
     height: 61.45rem;
@@ -451,38 +467,38 @@ body {
     margin: 1px;
     padding: 1px;
   }
-  
+
   .header { 
     flex-direction: column;
     margin: 0;
     top: 0;
   }
-  
+
   h1 {
     white-space: nowrap;
     text-align: center;
   }
-  
+
   h2 {
     white-space: nowrap;
     top: 195px;
     left: 800px;
     text-align: center;
   }
-  
+
   .header__styles {
     font: var(--size-8xl) sans-serif;
     top: 2.5rem;
     left: 30rem;
   }
-  
+
   .header__styles2 {
     display: absolute;
     font: 28px sans-serif;
     margin: none;
     font-size: var(--size-5xl);
   }
-  
+
   .header__square {
     height: 70px;
     width: 100%;
@@ -490,7 +506,7 @@ body {
     display:inherit;
     z-index: -1;
   }
-  
+
   .header__img {
     position: fixed;
     width: 9rem;;
@@ -498,7 +514,7 @@ body {
     left: 8.2rem;
     top: 3.4rem;
   }
-  
+
   .header__img2 {
     position: fixed;
     left: 0rem;
@@ -510,7 +526,7 @@ body {
     clip: rect(0, 1920px, 260px, 0);
     transform: scale(2) translate(2);
   }
-  
+
   .header__img3 {
     position: fixed;
     width: 15.5rem;;
@@ -518,7 +534,7 @@ body {
     left: 95rem;
     top: 3.1rem;
   }
-  
+
   body {
     background-image: url('/styles/media/BackgroundXXL.png');
     background-repeat: no-repeat;
@@ -688,4 +704,4 @@ body {
     background-color: black;
     z-index: 3;
   }
-}*/
+}
