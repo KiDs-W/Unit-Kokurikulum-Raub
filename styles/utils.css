@@ -1,0 +1,76 @@
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.1rem;
+  border-color: red;
+}
+
+a {
+  color: var(--clr-purple); /* default color of the link */
+  text-decoration: none; /* remove underline from the link */
+  transition: color 0.3s, background-color 0.3s; /* add a smooth transition effect */
+}
+
+a:hover {
+  color: #1500ff; /* color of the link on hover */
+  background-color: #f2f2f2; /* background color of the link on hover */
+}
+
+a:before {
+  color: #51ff00; /* color of the opening parenthesis */
+}
+
+a:after {
+  color: #51ff00; /* color of the closing parenthesis */
+}
+
+a:active {
+  color: #003366; /* color of the link when it is clicked */
+  background-color: #e6e6e6; /* background color of the link when it is clicked */
+}
+
+.section {
+  margin-top: 5rem;
+}
+
+/*@media (min-width: 475px) {
+  .container {
+    max-width: 475px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+
+  .section {
+    margin-top: 10rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  .comtainer {
+    max-width: 1920px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .container {
+    max-width: 2560px;
+  }
+}*/

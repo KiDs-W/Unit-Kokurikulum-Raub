@@ -1,0 +1,228 @@
+.contact {
+  position: fixed;
+  font: var(--size-2xl) sans-serif;
+  z-index: 5;
+}
+
+.contact__no {
+  position: fixed;
+  width: 1.6rem;;
+  height: 1.6rem;
+  left: 89.9rem;
+  z-index: 1;
+  top: 56.7rem;
+}
+
+.contact__fb {
+  position: fixed;
+  width: 1.5rem;
+  height: 1.5rem;
+  left: 90rem;
+  z-index: 1;
+  top: 58.6rem;
+}
+
+.contact__shapeBG {
+  position: fixed;
+  background-color: var(--clr-gold);
+  top: 56.5rem;
+  width: 120rem;
+  height: 5rem;
+  z-index: 2;
+}
+
+.table__about {
+  position: fixed;
+  top: 57rem;
+  left: -7rem;
+}
+
+.table__quickLink {
+  position: fixed;
+  top: 57rem;
+  left: 28rem;
+}
+
+.table__contact {
+  position: fixed;
+  top: 57rem;
+  left: 76rem;
+}
+
+.table__detailAbout {
+  position: fixed;
+  top: 56.3rem;
+  left: 12rem;
+}
+
+.table__detailQuickLink {
+  position: fixed;
+  top: 56.3rem;
+  left: 49rem;
+
+}
+
+.table__detailContact {
+  position: fixed;
+  top: 56.5rem;
+  left: 89.5rem;
+}
+
+/*@media (min-width: 475px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 1440px) {
+
+
+}
+
+@media (min-width: 1920px) {
+  .contact {
+    position: fixed;
+    font: var(--size-2xl) sans-serif;
+    z-index: 5;
+  }
+  
+  .contact__no {
+    position: fixed;
+    width: 1.6rem;;
+    height: 1.6rem;
+    left: 99.01rem;
+    z-index: 1;
+    top: 56.7rem;
+  }
+  
+  .contact__fb {
+    position: fixed;
+    width: 1.5rem;
+    height: 1.5rem;
+    left: 99.01rem;
+    z-index: 1;
+    top: 58.6rem;
+  }
+  
+  .contact__shapeBG {
+    position: fixed;
+    background-color: var(--clr-gold);
+    top: 56.5rem;
+    width: 119rem;
+    height: 5rem;
+    z-index: 2;
+  }
+  
+  .table__about {
+    position: fixed;
+    top: 57rem;
+    left: 1rem;
+  }
+  
+  .table__quickLink {
+    position: fixed;
+    top: 57rem;
+    left: 35rem;
+  }
+  
+  .table__contact {
+    position: fixed;
+    top: 57rem;
+    left: 84rem;
+  }
+  
+  .table__detailAbout {
+    position: fixed;
+    top: 56.3rem;
+    left: 20rem;
+  }
+  
+  .table__detailQuickLink {
+    position: fixed;
+    top: 56.3rem;
+    left: 55rem;
+  }
+  
+  .table__detailContact {
+    position: fixed;
+    top: 56.5rem;
+    left: 98.5rem;
+  }
+}
+
+@media (min-width: 2560px) {
+  .contact {
+    position: fixed;
+    font: var(--size-2xl) sans-serif;
+    z-index: 5;
+  }
+  
+  .contact__no {
+    position: fixed;
+    width: 1.6rem;;
+    height: 1.6rem;
+    left: 120.9rem;
+    z-index: 1;
+    top: 56.7rem;
+  }
+  
+  .contact__fb {
+    position: fixed;
+    width: 1.5rem;
+    height: 1.5rem;
+    left: 120.9rem;
+    z-index: 1;
+    top: 58.6rem;
+  }
+  
+  .contact__shapeBG {
+    position: fixed;
+    background-color: var(--clr-gold);
+    top: 56.5rem;
+    width: 159rem;
+    height: 5rem;
+    z-index: 2;
+  }
+  
+  .table__about {
+    position: fixed;
+    top: 57rem;
+    left: 15rem;
+  }
+  
+  .table__quickLink {
+    position: fixed;
+    top: 57rem;
+    left: 48rem;
+  }
+  
+  .table__contact {
+    position: fixed;
+    top: 57rem;
+    left: 105rem;
+  }
+  
+  .table__detailAbout {
+    position: fixed;
+    top: 56.3rem;
+    left: 34rem;
+  }
+  
+  .table__detailQuickLink {
+    position: fixed;
+    top: 56.3rem;
+    left: 69rem;
+  }
+  
+  .table__detailContact {
+    position: fixed;
+    top: 56.5rem;
+    left: 120.5rem;
+  }
+}*/
