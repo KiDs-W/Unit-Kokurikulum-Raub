@@ -1,9 +1,9 @@
 .sectionIDart__img1 {
   position: absolute;
-  top: 950px;
-  left: 495px;
-  z-index: -6;
-  width: 965px;
+  top: 670px;
+  left: 5px;
+  z-index: -2;
+  width: 925px;
   height: auto;
   padding-right: 16px;
 }
@@ -16,7 +16,7 @@
   width: 540px;
   max-height: 100px;
   max-width: 1000px;
-  z-index: -5;
+  z-index: -20;
   padding: 10px;
 }
 

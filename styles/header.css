@@ -26,20 +26,20 @@ h5{
 .purpleTop{ 
   position: absolute;
   background: var(--clr-purple);
-  width: 1900px;
+  width: 915px;
   height: 35px;
   z-index: -3;
-  left: -14px;
+  left: 0px;
   top: 0px;
 }
 
 .purpleBot{ 
   position: absolute;
   background: var(--clr-purple);
-  width: 1904px;
+  width: 915px;
   height: 35px;
   z-index: -5;
-  left: -14px;
+  left: 0px;
   top: 195px;
 }
 
@@ -58,28 +58,27 @@ h5{
   background: var(--clr-purple);
   width: 27px;
   height: 225px;
-  z-index: -3;
-  left: 1864px;
+  left: 870px;
   top: 0px;
 }
 
 .purpleTrapezium {
   position: absolute;
   height: 0;
-  width: 360px;
-  height: 70px;
+  width: 550px;
+  height: 45px;
   transform: skew(-20deg);
   background: var(--clr-purple);
-  top: 140px;
-  left: 820px;
-  z-index: -5;
+  top: 160px;
+  left: 325px;
+  z-index: -2;
 }
 
 .gold {
   position: absolute;
   background: var(--clr-gold);
   width: 2rem;
-  height: 117.5rem;
+  height: 230px;
   margin: 0;
   top: 0rem;
   left: -0.2rem;
@@ -90,10 +89,10 @@ h5{
   position: fixed;
   background: var(--clr-gold);
   width: 2rem;
-  height: 116rem;
+  height: 230px;
   margin: 0;
   top: 0rem;
-  left: 118rem;
+  left: 55.5rem;
   margin: 1px;
   padding: 1px;
 }
@@ -114,8 +113,8 @@ h1 {
 h2 {
   position: absolute;
   white-space: nowrap;
-  top: 155px;
-  left: 850px;
+  top: 175px;
+  left: 345px;
   text-align: center;
 }
 
@@ -126,11 +125,11 @@ h2 {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px;
   -webkit-text-stroke-color: white;
-  font: var(--size-8xl) sans-serif;
+  font: var(--size-3xl) sans-serif;
   margin: none;
-  text-shadow: 1px 3px black;
-  top: 2rem;
-  left: 30.5rem;
+  text-shadow: 4px 7px black;
+  top: 5rem;
+  left: 28.5rem;
   word-spacing: 8px;
 }
 
@@ -140,7 +139,8 @@ h2 {
   position: relative;
   margin: none;
   color: var(--clr-gold);
-  font-size: var(--size-4xl);
+  font-size: var(--size-3xl);
+  z-index: -1;
 }
 
 .header__square {
@@ -153,22 +153,25 @@ h2 {
 
 .header__img {
   position: absolute;
-  width: 7rem;;
+  width: 100%;
   height: 7.5rem;
-  left: 6.2rem;
+  left: 3.5rem;
   z-index: 1;
-  top: 3.2rem;
+  top: 3rem;
 }
 
 .header__img2 {
   position: fixed;
-  left: 0rem;
-  top: -1.2rem;
-  object-position: 55%;
+  left: 0.5rem;
+  top: -4.5rem;
+  object-position: 15%;
   z-index: -3;
-  object-fit: contain;
-  clip: rect(0, 1870px, 249px, 0);
-  transform: scale(1) translate(2);
+  object-fit: fill;
+  clip: rect(0, 935px, 300px, 0);
+  transform: scale(1) translate(0.5);
+  width: 870px; /* Added width property */
+  height: 600px; /* Added height property */
+  filter: brightness(20%);
 }
 
 .header__img3 {
@@ -180,15 +183,7 @@ h2 {
 }
 
 body {
-  background-image: url('/styles/media/BackgroundXXL.png');
-  background-repeat: no-repeat;
-  background-position: top;
-  background-position-y: -27px;
-  background-size: cover;
-  background-attachment: fixed;
-  background-color: black;
-  z-index: 3;
-  overflow-x: hidden;
+  background:#fff6f6;
 }
 
 @media (min-width: 475px) {

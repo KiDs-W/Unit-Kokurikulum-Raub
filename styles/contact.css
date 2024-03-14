@@ -1,83 +1,289 @@
 .contact {
-  position: fixed;
+  position: absolute;
   font: var(--size-2xl) sans-serif;
   z-index: 5;
+  top: -72rem;
 }
 
 .contact__no {
-  position: fixed;
+  position: absolute;
   width: 1.6rem;;
   height: 1.6rem;
-  left: 89.9rem;
-  z-index: 1;
-  top: 56.7rem;
+  left: 1rem;
+  z-index: 11;
+  top: 0.3rem;
 }
 
 .contact__fb {
-  position: fixed;
+  position: absolute;
   width: 1.5rem;
   height: 1.5rem;
-  left: 90rem;
-  z-index: 1;
-  top: 58.6rem;
+  left: 1rem;
+  z-index: 11;
+  top: 2.3rem;
 }
 
 .contact__shapeBG {
-  position: fixed;
+  position: absolute;
   background-color: var(--clr-gold);
-  top: 56.5rem;
-  width: 120rem;
-  height: 5rem;
-  z-index: 2;
+  top: 70.6rem;
+  width: 57.6rem;
+  height: 25rem;
+  z-index: -2;
+  left: -15px;
 }
 
 .table__about {
-  position: fixed;
-  top: 57rem;
-  left: -7rem;
+  position: absolute;
+  top: 6rem;
+  left: -1rem;
+  top: 144.6rem;
 }
 
 .table__quickLink {
-  position: fixed;
-  top: 57rem;
-  left: 28rem;
+  position: absolute;
+  top: 56rem;
+  left: 1.3rem;
+  top: 150.6rem;
 }
 
 .table__contact {
   position: fixed;
-  top: 57rem;
-  left: 76rem;
+  left: -1.5rem;
+  top: 100.6rem;
 }
 
 .table__detailAbout {
-  position: fixed;
-  top: 56.3rem;
-  left: 12rem;
+  position: absolute;
+  left: 10.5rem;
+  top: 144rem;
+  z-index: 8;
 }
 
 .table__detailQuickLink {
-  position: fixed;
-  top: 56.3rem;
-  left: 49rem;
-
+  position: absolute;
+  left: 10.5rem;
+  top: 149.6rem;
 }
 
 .table__detailContact {
-  position: fixed;
-  top: 56.5rem;
-  left: 89.5rem;
+  position: absolute;
+  left: 10.5rem;
+  top: 157.6rem;
+  z-index: 20;
 }
 
 @media (min-width: 475px) {
-
+  .contact {
+    position: fixed;
+    font: var(--size-2xl) sans-serif;
+    z-index: 5;
+  }
+  
+  .contact__no {
+    position: fixed;
+    width: 1.6rem;;
+    height: 1.6rem;
+    left: 85.01rem;
+    z-index: 1;
+    top: 55.2rem;
+  }
+  
+  .contact__fb {
+    position: fixed;
+    width: 1.5rem;
+    height: 1.5rem;
+    left: 85.01rem;
+    z-index: 1;
+    top: 57rem;
+  }
+  
+  .contact__shapeBG {
+    position: fixed;
+    background-color: var(--clr-gold);
+    top: 54.5rem;
+    width: 106.5rem;
+    height: 5rem;
+    z-index: 2;
+  }
+  
+  .table__about {
+    position: fixed;
+    top: 56rem;
+    left: -7rem;
+  }
+  
+  .table__quickLink {
+    position: fixed;
+    top: 56rem;
+    left: 25rem;
+  }
+  
+  .table__contact {
+    position: fixed;
+    top: 56rem;
+    left: 70rem;
+  }
+  
+  .table__detailAbout {
+    position: fixed;
+    top: 54.9rem;
+    left: 13rem;
+  }
+  
+  .table__detailQuickLink {
+    position: fixed;
+    top: 54.9rem;
+    left: 46rem;
+  }
+  
+  .table__detailContact {
+    position: fixed;
+    top: 54.9rem;
+    left: 84.5rem;
+  }
 }
 
 @media (min-width: 768px) {
-
+  .contact {
+    position: fixed;
+    font: var(--size-2xl) sans-serif;
+    z-index: 5;
+  }
+  
+  .contact__no {
+    position: fixed;
+    width: 1.6rem;;
+    height: 1.6rem;
+    left: 85.01rem;
+    z-index: 1;
+    top: 55.2rem;
+  }
+  
+  .contact__fb {
+    position: fixed;
+    width: 1.5rem;
+    height: 1.5rem;
+    left: 85.01rem;
+    z-index: 1;
+    top: 57rem;
+  }
+  
+  .contact__shapeBG {
+    position: fixed;
+    background-color: var(--clr-gold);
+    top: 54.5rem;
+    width: 106.5rem;
+    height: 5rem;
+    z-index: 2;
+  }
+  
+  .table__about {
+    position: fixed;
+    top: 56rem;
+    left: -7rem;
+  }
+  
+  .table__quickLink {
+    position: fixed;
+    top: 56rem;
+    left: 25rem;
+  }
+  
+  .table__contact {
+    position: fixed;
+    top: 56rem;
+    left: 70rem;
+  }
+  
+  .table__detailAbout {
+    position: fixed;
+    top: 54.9rem;
+    left: 13rem;
+  }
+  
+  .table__detailQuickLink {
+    position: fixed;
+    top: 54.9rem;
+    left: 46rem;
+  }
+  
+  .table__detailContact {
+    position: fixed;
+    top: 54.9rem;
+    left: 84.5rem;
+  }
 }
 
 @media (min-width: 1024px) {
-
+  .contact {
+    position: fixed;
+    font: var(--size-2xl) sans-serif;
+    z-index: 5;
+  }
+  
+  .contact__no {
+    position: fixed;
+    width: 1.6rem;;
+    height: 1.6rem;
+    left: 85.01rem;
+    z-index: 1;
+    top: 55.2rem;
+  }
+  
+  .contact__fb {
+    position: fixed;
+    width: 1.5rem;
+    height: 1.5rem;
+    left: 85.01rem;
+    z-index: 1;
+    top: 57rem;
+  }
+  
+  .contact__shapeBG {
+    position: fixed;
+    background-color: var(--clr-gold);
+    top: 54.5rem;
+    width: 106.5rem;
+    height: 5rem;
+    z-index: 2;
+  }
+  
+  .table__about {
+    position: fixed;
+    top: 56rem;
+    left: -7rem;
+  }
+  
+  .table__quickLink {
+    position: fixed;
+    top: 56rem;
+    left: 25rem;
+  }
+  
+  .table__contact {
+    position: fixed;
+    top: 56rem;
+    left: 70rem;
+  }
+  
+  .table__detailAbout {
+    position: fixed;
+    top: 54.9rem;
+    left: 13rem;
+  }
+  
+  .table__detailQuickLink {
+    position: fixed;
+    top: 54.9rem;
+    left: 46rem;
+  }
+  
+  .table__detailContact {
+    position: fixed;
+    top: 54.9rem;
+    left: 84.5rem;
+  }
 }
 
 @media (min-width: 1440px) {

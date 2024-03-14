@@ -1,35 +1,34 @@
-.container{
-  position: relative;
-  top: 1200px;
-  left: 520px;
-}
-
 .container__img {
   position: absolute;
-  top: 550px;
-  left: 65px;
+  top: 1200px;
+  left: 30px;
   height: 150px;
+  width: 190px;
 }
+
 
 .container__img2 {
   position: absolute;
-  top: 550px;
-  left: 335px;
+  top: 1200px;
+  left: 260px;
   height: 150px;
+  width: 190px;
 }
 
 .container__img3 {
   position: absolute;
-  top: 550px;
-  left: 520px;
-  height: 150px;
+  top: 1200px;
+  left: 490px;
+  height: 155px;
+  width: 190px;
 }
 
 .container__img4 {
   position: absolute;
-  top: 550px;
+  top: 1200px;
   left: 705px;
   height: 150px;
+  width: 195px;
 }
 
 .container__black {
@@ -41,19 +40,6 @@
   top: 230px;
   left: 0px;
   opacity: 0.5;
-}
-
-.container__bg2 {
-  position: absolute;
-  height: 1000PX;
-  left: -440px;
-  top: 10px;
-  max-width: 1800px;
-}
-
-.fieldset1 {
-  position: static;
-  top: 1000px;
 }
 
 @media (min-width: 475px) {
