@@ -2,31 +2,10 @@
   position: absolute;
 }
 
-h3 {
-  font-size: 35px;
-  color: var(--clr-gold);
-  -webkit-text-fill-color: var(--clr-gold);
-  padding-top: 5px;
-}
-
-h4{
-  font-size: 15px;
-  margin-top: 12px;
-  color:aqua;
-  -webkit-text-fill-color: aqua;
-}
-
-h5{
-  font-size: 25px;
-  margin-top: 12px;
-  color:aqua;
-  -webkit-text-fill-color: aqua;
-}
-
 .purpleTop{ 
   position: absolute;
   background: var(--clr-purple);
-  width: 915px;
+  width: 465px;
   height: 35px;
   z-index: -3;
   left: 0px;
@@ -36,7 +15,7 @@ h5{
 .purpleBot{ 
   position: absolute;
   background: var(--clr-purple);
-  width: 915px;
+  width: 465px;
   height: 35px;
   z-index: -5;
   left: 0px;
@@ -58,19 +37,19 @@ h5{
   background: var(--clr-purple);
   width: 27px;
   height: 225px;
-  left: 870px;
+  left: 420px;
   top: 0px;
 }
 
 .purpleTrapezium {
   position: absolute;
   height: 0;
-  width: 550px;
-  height: 45px;
+  width: 230px;
+  height: 40px;
   transform: skew(-20deg);
   background: var(--clr-purple);
-  top: 160px;
-  left: 325px;
+  top: 170px;
+  left: 195px;
   z-index: -2;
 }
 
@@ -91,8 +70,8 @@ h5{
   width: 2rem;
   height: 230px;
   margin: 0;
-  top: 0rem;
-  left: 55.5rem;
+  top: -1px;
+  left: 27.5rem;
   margin: 1px;
   padding: 1px;
 }
@@ -104,33 +83,12 @@ h5{
   top: 0;
 }
 
-h1 {
-  position: absolute;
-  white-space: nowrap;
-  text-align: center;
-}
-
 h2 {
   position: absolute;
   white-space: nowrap;
   top: 175px;
-  left: 345px;
+  left: 205px;
   text-align: center;
-}
-
-.header__styles {
-  position: absolute;
-  list-style: none;
-  padding: 0;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 1px;
-  -webkit-text-stroke-color: white;
-  font: var(--size-3xl) sans-serif;
-  margin: none;
-  text-shadow: 4px 7px black;
-  top: 5rem;
-  left: 28.5rem;
-  word-spacing: 8px;
 }
 
 .header__styles2 {
@@ -139,22 +97,14 @@ h2 {
   position: relative;
   margin: none;
   color: var(--clr-gold);
-  font-size: var(--size-3xl);
-  z-index: -1;
-}
-
-.header__square {
-  height: 70px;
-  width: 100%;
-  background-color: #ff0000;
-  display:inherit;
+  font-size: var(--size-xs);
   z-index: -1;
 }
 
 .header__img {
   position: absolute;
-  width: 100%;
-  height: 7.5rem;
+  width: 65%;
+  height: 5.5rem;
   left: 3.5rem;
   z-index: 1;
   top: 3rem;
@@ -169,17 +119,9 @@ h2 {
   object-fit: fill;
   clip: rect(0, 935px, 300px, 0);
   transform: scale(1) translate(0.5);
-  width: 870px; /* Added width property */
-  height: 600px; /* Added height property */
-  filter: brightness(20%);
-}
-
-.header__img3 {
-  position: absolute;
-  width: 13rem;;
-  height: 8.5rem;
-  left: 103rem;
-  top: 3.3rem;
+  width: 470px;
+  height: 600px;
+  filter: brightness(10%);
 }
 
 body {

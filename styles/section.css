@@ -1,35 +1,11 @@
 .sectionIDart__img1 {
   position: absolute;
-  top: 670px;
-  left: 5px;
+  top: 865px;
+  left: 35px;
   z-index: -2;
-  width: 925px;
+  width: 425px;
   height: auto;
   padding-right: 16px;
-}
-
-.section__VisiMisi {
-  position: absolute;
-  display: flexbox;
-  top: 226px;
-  left: 15px;
-  width: 540px;
-  max-height: 100px;
-  max-width: 1000px;
-  z-index: -20;
-  padding: 10px;
-}
-
-.section__Piagam {
-  position: absolute;
-  display: flex;
-  top: 246px;
-  left: 1087px;
-  width: 700px;
-  max-height: 500px;
-  z-index: -5;
-  padding: 10px;
-  box-sizing: border-box;
 }
 
 .sectionPPW__imgDW {

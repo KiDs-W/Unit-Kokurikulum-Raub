@@ -26,7 +26,7 @@
 .contact__shapeBG {
   position: absolute;
   background-color: var(--clr-gold);
-  top: 70.6rem;
+  top: 100.9rem;
   width: 57.6rem;
   height: 25rem;
   z-index: -2;
@@ -36,40 +36,40 @@
 .table__about {
   position: absolute;
   top: 6rem;
-  left: -1rem;
-  top: 144.6rem;
+  left: -2rem;
+  top: 174.6rem;
 }
 
 .table__quickLink {
   position: absolute;
   top: 56rem;
-  left: 1.3rem;
-  top: 150.6rem;
+  left: 0.5rem;
+  top: 183.6rem;
 }
 
 .table__contact {
   position: fixed;
-  left: -1.5rem;
-  top: 100.6rem;
+  left: -3.5rem;
+  top: 120.6rem;
 }
 
 .table__detailAbout {
   position: absolute;
-  left: 10.5rem;
-  top: 144rem;
+  left: 9.5rem;
+  top: 174rem;
   z-index: 8;
 }
 
 .table__detailQuickLink {
   position: absolute;
-  left: 10.5rem;
-  top: 149.6rem;
+  left: 9.5rem;
+  top: 181.6rem;
 }
 
 .table__detailContact {
   position: absolute;
-  left: 10.5rem;
-  top: 157.6rem;
+  left: 9.3rem;
+  top: 191.6rem;
   z-index: 20;
 }
 
