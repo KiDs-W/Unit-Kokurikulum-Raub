@@ -1,11 +1,12 @@
 .sectionIDart__img1 {
   position: absolute;
-  top: 865px;
-  left: 35px;
+  top: 830px;
+  left: 15px;
   z-index: -2;
-  width: 425px;
+  width: 365px;
   height: auto;
   padding-right: 16px;
+  margin: 2rem;
 }
 
 .sectionPPW__imgDW {
@@ -71,14 +72,6 @@
   left: 580px;
 }
 
-.section__CartaOrg {
-  position: absolute;
-  top: 10px;
-  left: 650px;
-  width: 620px;
-  height: 300px;
-}
-
 .jadual_Tarikh {
   position: absolute;
   top: 240px;
@@ -88,356 +81,49 @@
 }
 
 @media (min-width: 475px) {
-
+  .sectionIDart__img1 {
+    top: 865px;
+    left: 15px;
+    width: 405px;
+  }
 }
 
 @media (min-width: 768px) {
-
+  .sectionIDart__img1 {
+    top: 1290px;
+    left: 15px;
+    width: 615px;
+  }
 }
 
 @media (min-width: 1024px) {
-
+  .sectionIDart__img1 {
+    top: 660px;
+    left: 65px;
+    width: 715px;
+  }
 }
 
 @media (min-width: 1440px) {
   .sectionIDart__img1 {
-    position: absolute;
-    top: 950px;
-    left: 435px;
-    z-index: -6;
-    width: 965px;
-    height: auto;
-    padding-right: 16px;
-  }
-  
-  .section__VisiMisi {
-    position: absolute;
-    display: flexbox;
-    top: 295px;
-    left: 50px;
-    width: 540px;
-    max-height: 200px;
-    max-width: 1000px;
-    z-index: -5;
-    padding: 10px;
-  }
-  
-  .section__Piagam {
-    position: absolute;
-    display: flex;
-    top: 255px;
-    left: 860px;
-    width: 1090px;
-    z-index: -5;
-    padding: 10px;
-    box-sizing: border-box;
-  }
-  
-  .sectionPPW__imgDW {
-    position: relative;
-    height: 30px;
-    width: 30px;
-    padding: 1px;
-    margin-bottom: 4px;
-    margin-left: 20px;
-  }
-  
-  .PPW__Beruniform {
-    position: absolute;
-    font: var(--size-2xl) sans-serif;
-    top: 295px;
-    left: 550px;
-    z-index: -5; 
-    padding: 10px;
-    margin: 1px;
-    outline: 5px solid rgb(250, 0, 250);
-  }
-  
-  .PPW__Akademik {
-    position: absolute;
-    font: var(--size-2xl) sans-serif;
-    top: 295px;
-    left: 1525px;
-    width: 595px;
-    z-index: -5;
-    padding: 10px;
-    margin: 1px;
-    outline: 5px solid rgb(250, 0, 250);
-  }
-  
-  .PPW__Sukan {
-    position: absolute;
-    font: var(--size-2xl) sans-serif;
-    top: 527px;
-    left: 1525px;
-    width: 595px;
-    z-index: -5;
-    padding: 10px;
-    padding-right: 45px;
-    margin: 1px;
-    outline: 5px solid rgb(250, 0, 250);
-  }
-  
-  .borang__GantiKuliah {
-    position: absolute;
-    left:250px;
-    top: 250px;
-  }
-  
-  .borang__Tuntutan {
-    position: absolute;
-    top: 250px;
-    left: 1080px;
-  }
-  
-  .surat__KEM {
-    position: absolute;
-    top: 240px;
-    left: 580px;
-  }
-  
-  .section__CartaOrg {
-    position: absolute;
-    top: 10px;
-    left: 650px;
-    width: 620px;
-    height: 300px;
-  }
-  
-  .jadual_Tarikh {
-    position: absolute;
-    top: 275px;
-    left: 550px;
-    width: 1540px;
-    height: 625px;
+    top: 690px;
+    left: 305px;
+    width: 675px;
   }
 }
 
 @media (min-width: 1920px) {
   .sectionIDart__img1 {
-    position: absolute;
-    top: 950px;
-    left: 435px;
-    z-index: -6;
-    width: 965px;
-    height: auto;
-    padding-right: 16px;
-  }
-  
-  .section__VisiMisi {
-    position: absolute;
-    display: flexbox;
-    top: 295px;
-    left: 50px;
-    width: 540px;
-    max-height: 200px;
-    max-width: 1000px;
-    z-index: -5;
-    padding: 10px;
-  }
-  
-  .section__Piagam {
-    position: absolute;
-    display: flex;
-    top: 295px;
-    left: 1050px;
-    width: 1090px;
-    z-index: -5;
-    padding: 10px;
-    box-sizing: border-box;
-  }
-  
-  .sectionPPW__imgDW {
-    position: relative;
-    height: 30px;
-    width: 30px;
-    padding: 1px;
-    margin-bottom: 4px;
-    margin-left: 20px;
-  }
-  
-  .PPW__Beruniform {
-    position: absolute;
-    font: var(--size-2xl) sans-serif;
-    top: 295px;
-    left: 350px;
-    z-index: -5; 
-    padding: 10px;
-    margin: 1px;
-    outline: 5px solid rgb(250, 0, 250);
-  }
-  
-  .PPW__Akademik {
-    position: absolute;
-    font: var(--size-2xl) sans-serif;
-    top: 295px;
-    left: 1225px;
-    width: 595px;
-    z-index: -5;
-    padding: 10px;
-    margin: 1px;
-    outline: 5px solid rgb(250, 0, 250);
-  }
-  
-  .PPW__Sukan {
-    position: absolute;
-    font: var(--size-2xl) sans-serif;
-    top: 527px;
-    left: 1225px;
-    width: 595px;
-    z-index: -5;
-    padding: 10px;
-    padding-right: 45px;
-    margin: 1px;
-    outline: 5px solid rgb(250, 0, 250);
-  }
-  
-  .borang__GantiKuliah {
-    position: absolute;
-    left:250px;
-    top: 280px;
-  }
-  
-  .borang__Tuntutan {
-    position: absolute;
-    top: 280px;
-    left: 1080px;
-  }
-  
-  .surat__KEM {
-    position: absolute;
-    top: 280px;
-    left: 580px;
-
-  }
-  
-  .section__CartaOrg {
-    position: absolute;
-    top: 10px;
-    left: 650px;
-    width: 620px;
-    height: 300px;
-  }
-  
-  .jadual_Tarikh {
-    position: absolute;
-    top: 275px;
-    left: 250px;
-    width: 1240px;
-    height: 625px;
+    top: 1050px;
+    left: 385px;
+    width: 1075px;
   }
 }
 
 @media (min-width: 2560px) {
   .sectionIDart__img1 {
-    position: absolute;
-    top: 950px;
-    left: 835px;
-    z-index: -6;
-    width: 965px;
-    height: auto;
-    padding-right: 16px;
-  }
-  
-  .section__VisiMisi {
-    position: absolute;
-    display: flexbox;
-    top: 295px;
-    left: 120px;
-    width: 540px;
-    max-height: 200px;
-    max-width: 1000px;
-    z-index: -5;
-    padding: 10px;
-  }
-  
-  .section__Piagam {
-    position: absolute;
-    display: flex;
-    top: 295px;
-    left: 1250px;
-    width: 1090px;
-    z-index: -5;
-    padding: 10px;
-    box-sizing: border-box;
-  }
-  
-  .sectionPPW__imgDW {
-    position: relative;
-    height: 30px;
-    width: 30px;
-    padding: 1px;
-    margin-bottom: 4px;
-    margin-left: 20px;
-  }
-  
-  .PPW__Beruniform {
-    position: absolute;
-    font: var(--size-2xl) sans-serif;
-    top: 295px;
-    left: 550px;
-    z-index: -5; 
-    padding: 10px;
-    margin: 1px;
-    outline: 5px solid rgb(250, 0, 250);
-  }
-  
-  .PPW__Akademik {
-    position: absolute;
-    font: var(--size-2xl) sans-serif;
-    top: 295px;
-    left: 1525px;
-    width: 595px;
-    z-index: -5;
-    padding: 10px;
-    margin: 1px;
-    outline: 5px solid rgb(250, 0, 250);
-  }
-  
-  .PPW__Sukan {
-    position: absolute;
-    font: var(--size-2xl) sans-serif;
-    top: 527px;
-    left: 1525px;
-    width: 595px;
-    z-index: -5;
-    padding: 10px;
-    padding-right: 45px;
-    margin: 1px;
-    outline: 5px solid rgb(250, 0, 250);
-  }
-  
-  .borang__GantiKuliah {
-    position: absolute;
-    left:250px;
-    top: 250px;
-  }
-  
-  .borang__Tuntutan {
-    position: absolute;
-    top: 250px;
-    left: 1080px;
-  }
-  
-  .surat__KEM {
-    position: absolute;
-    top: 240px;
-    left: 580px;
-  }
-  
-  .section__CartaOrg {
-    position: absolute;
-    top: 10px;
-    left: 650px;
-    width: 620px;
-    height: 300px;
-  }
-  
-  .jadual_Tarikh {
-    position: absolute;
-    top: 275px;
-    left: 550px;
-    width: 1540px;
-    height: 625px;
+    top: 1150px;
+    left: 385px;
+    width: 1175px;
   }
 }

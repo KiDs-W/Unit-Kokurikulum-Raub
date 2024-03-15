@@ -5,9 +5,10 @@ export default {
       input: {
         index: '/index.html',
         kertasKerja: '/kertasKerja.html',
-        borang: 'borang.html',
-        jadual: 'jadual.html',
-        surat: 'surat.html'
+        borang: '/borang.html',
+        jadual: '/jadual.html',
+        surat: '/surat.html',
+        manual: '/manual.html'
       }
     }
   }

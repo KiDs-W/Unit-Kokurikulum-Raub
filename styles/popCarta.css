@@ -21,7 +21,7 @@
 /*Positioning of the child box*/
 .modalBox > div {
   width: 100%;
-  width: 400px;
+  width: 310px;
   position: absolute;
   margin: 10% auto;
   padding: 5px 20px 13px 20px;
@@ -67,231 +67,90 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 23px;
+  font-size: 13px;
   cursor: pointer;
 }
 
 @media (min-width: 475px) {
-
+  /*Positioning of the child box*/
+  .modalBox > div {
+    width: 100%;
+    width: 310px;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 0px;
+    top: 100px;
+    left: 30px;
+    z-index: 99;
+  }
 }
 
 @media (min-width: 768px) {
-
+  /*Positioning of the child box*/
+  .modalBox > div {
+    width: 100%;
+    width: 590px;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 0px;
+    top: 100px;
+    left: 50px;
+    z-index: 99;
+  }
 }
 
 @media (min-width: 1024px) {
-
+  /*Positioning of the child box*/
+  .modalBox > div {
+    width: 100%;
+    width: 750px;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 0px;
+    top: -70px;
+    left: 50px;
+    z-index: 99;
+  }
 }
 
 @media (min-width: 1440px) {
-  .modalBox {
-    position: fixed;
-    font-family: Arial, Helvetica, sans-serif;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.8);
-    color: black;
-    z-index: 999999;
-    opacity: 0;
-    pointer-events: none;
-  }
-  
-  .modalBox:target {
-    opacity: 1;
-    pointer-events: auto;
-    z-index: 99999;
-  }
-  
-  .modalBox > div {
-    width: 100%;
-    max-width: 600px;
-    position: absolute;
-    margin: 10% auto;
-    padding: 5px 20px 13px 20px;
-    border-radius: 0px;
-    background: white;
-    top: -140px;
-    left: 1050px;
-  }
-  
-  .close {
-    background: white;
-    color: black;
-    line-height: 25px;
-    position: absolute;
-    right: 1px;
-    text-align: center;
-    top: 1px;
-    width: 35px;
-    text-decoration: none;
-    font-weight: bold;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
-    border-radius: 12px;
-    -moz-box-shadow: 1px 1px 3px #000;
-    -webkit-box-shadow: 1px 1px 3px #000;
-    box-shadow: none;
-    border: none;
-  }
-  
-  .close:hover {
-    background: black;
-    color: white;
-  }
-  
-  .popup-link {
-    background-color: none;
-    border: none;
-    color:var(--clr-purple);
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 23px;
-    cursor: pointer;
-    z-index: 999;
-  }
+    /*Positioning of the child box*/
+    .modalBox > div {
+      width: 100%;
+      width: 750px;
+      margin: 10% auto;
+      padding: 5px 20px 13px 20px;
+      border-radius: 0px;
+      top: -100px;
+      left: 250px;
+      z-index: 99;
+    }
 }
 
 @media (min-width: 1920px) {
-  .modalBox {
-    position: fixed;
-    font-family: Arial, Helvetica, sans-serif;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.8);
-    color: black;
-    z-index: 999999;
-    opacity: 0;
-    pointer-events: none;
-  }
-  
-  .modalBox:target {
-    opacity: 1;
-    pointer-events: auto;
-    z-index: 99999;
-  }
-  
-  .modalBox > div {
-    width: 100%;
-    max-width: 600px;
-    position: absolute;
-    margin: 10% auto;
-    padding: 5px 20px 13px 20px;
-    border-radius: 0px;
-    background: white;
-    top: -140px;
-    left: 1050px;
-  }
-  
-  .close {
-    background: white;
-    color: black;
-    line-height: 25px;
-    position: absolute;
-    right: 1px;
-    text-align: center;
-    top: 1px;
-    width: 35px;
-    text-decoration: none;
-    font-weight: bold;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
-    border-radius: 12px;
-    -moz-box-shadow: 1px 1px 3px #000;
-    -webkit-box-shadow: 1px 1px 3px #000;
-    box-shadow: none;
-    border: none;
-  }
-  
-  .close:hover {
-    background: black;
-    color: white;
-  }
-  
-  .popup-link {
-    background-color: none;
-    border: none;
-    color:var(--clr-purple);
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 23px;
-    cursor: pointer;
-    z-index: 999;
-  }
+     /*Positioning of the child box*/
+     .modalBox > div {
+      width: 100%;
+      width: 750px;
+      margin: 10% auto;
+      padding: 5px 20px 13px 20px;
+      border-radius: 0px;
+      top: -170px;
+      left: 650px;
+      z-index: 99;
+    }
 }
 
 @media (min-width: 2560px) {
-  .modalBox {
-    position: fixed;
-    font-family: Arial, Helvetica, sans-serif;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.8);
-    color: black;
-    z-index: 999999;
-    opacity: 0;
-    pointer-events: none;
-  }
-  
-  .modalBox:target {
-    opacity: 1;
-    pointer-events: auto;
-    z-index: 99999;
-  }
-  
-  .modalBox > div {
-    width: 100%;
-    max-width: 600px;
-    position: absolute;
-    margin: 10% auto;
-    padding: 5px 20px 13px 20px;
-    border-radius: 0px;
-    background: white;
-    top: -140px;
-    left: 1050px;
-  }
-  
-  .close {
-    background: white;
-    color: black;
-    line-height: 25px;
-    position: absolute;
-    right: 1px;
-    text-align: center;
-    top: 1px;
-    width: 35px;
-    text-decoration: none;
-    font-weight: bold;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
-    border-radius: 12px;
-    -moz-box-shadow: 1px 1px 3px #000;
-    -webkit-box-shadow: 1px 1px 3px #000;
-    box-shadow: none;
-    border: none;
-  }
-  
-  .close:hover {
-    background: black;
-    color: white;
-  }
-  
-  .popup-link {
-    background-color: none;
-    border: none;
-    color:var(--clr-purple);
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 23px;
-    cursor: pointer;
-    z-index: 999;
-  }
+     /*Positioning of the child box*/
+     .modalBox > div {
+      width: 100%;
+      width: 750px;
+      margin: 10% auto;
+      padding: 5px 20px 13px 20px;
+      border-radius: 0px;
+      top: -220px;
+      left: 750px;
+      z-index: 99;
+    }
 }

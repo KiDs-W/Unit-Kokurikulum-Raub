@@ -1,244 +1,372 @@
+.containerMain {
+  position: absolute;
+  top: 0px;
+}
 .container__img {
   position: absolute;
-  top: 1150px;
-  left: 30px;
-  height: 150px;
-  width: 190px;
+  top: 1080px;
+  left: 125px;
+  height: 50px;
+  width: 150px;
 }
-
 
 .container__img2 {
   position: absolute;
-  top: 1150px;
-  left: 260px;
-  height: 150px;
-  width: 190px;
+  top: 1185px;
+  left: 125px;
+  height: 50px;
+  width: 150px;
 }
 
 .container__img3 {
   position: absolute;
-  top: 1300px;
-  left: 130px;
-  height: 155px;
-  width: 190px;
+  top: 1290px;
+  left: 125px;
+  height: 50px;
+  width: 150px;
 }
 
 .container__img4 {
   position: absolute;
-  top: 1450px;
-  left: 30px;
-  height: 150px;
-  width: 195px;
+  top: 1395px;
+  left: 125px;
+  height: 50px;
+  width: 150px;
 }
 
 .container__img5 {
   position: absolute;
-  top: 1450px;
-  left: 260px;
-  height: 150px;
-  width: 195px;
+  top: 1500px;
+  left: 125px;
+  height: 50px;
+  width: 150px;
 }
 
 .containerVS {
   position: absolute;
   display: inline-flexbox;
   display: flexbox;
-  top: 15.2rem;
-  left: 5.5rem;
-  z-index: -15;
+  top: 12.2rem;
+  left: 2.5rem;
+  z-index: -1;
   width: 20rem;
   height: auto;
 }
 
 @media (min-width: 475px) {
-
-}
-
-@media (min-width: 768px) {
-
-}
-
-@media (min-width: 1024px) {
-
-}
-
-@media (min-width: 1440px) {
-  .container{
-    position: relative;
-    top: 1300px;
-    left: -40px;
-
+  .containerMain {
+    top: 0px;
+    left: 1rem;
   }
-  
   .container__img {
-    position: absolute;
-    top: 450px;
-    left: 565px;
-    height: 150px;
+    top: 1150px;
+    left: 165px;
+    height: 50px;
+    width: 150px;
   }
   
   .container__img2 {
-    position: absolute;
-    top: 450px;
-    left: 835px;
-    height: 150px;
+    top: 1255px;
+    left: 165px;
+    height: 50px;
+    width: 150px;
   }
   
   .container__img3 {
-    position: absolute;
-    top: 450px;
-    left: 1010px;
-    height: 150px;
+    top: 1360px;
+    left: 165px;
+    height: 50px;
+    width: 150px;
   }
   
   .container__img4 {
-    position: absolute;
-    top: 450px;
-    left: 1150px;
-    height: 150px;
+    top: 1465px;
+    left: 165px;
+    height: 50px;
+    width: 150px;
   }
   
-  .container__black {
-    position: fixed;
-    width: 1699px;
-    height: 700px;
-    background-color: black;
-    z-index: -9;
-    top: 230px;
-    left: 0px;
-    opacity: 0.5;
+  .container__img5 {
+    top: 1570px;
+    left: 165px;
+    height: 50px;
+    width: 150px;
   }
   
-  .container__bg2 {
-    position: absolute;
-    height: 800PX;
-    left: 30px;
-    top: -10px;
-    width: 1800px;
+  .containerVS {
+    top: 12.2rem;
+    left: 3.5rem;
+    width: 23rem;
+    height: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .containerMain {
+    top: 550px;
+    left: 5rem;
+  }
+  .container__img {
+    top: 1150px;
+    left: -70px;
+    height: 90px;
+    width: 200px;
+    margin: 1rem;
   }
   
-  .fieldset1 {
-    position: static;
-    top: 500px;
+  .container__img2 {
+    top: 1150px;
+    left: 143px;
+    height: 90px;
+    width: 200px;
+    margin: 1rem;
+  }
+  
+  .container__img3 {
+    top: 1150px;
+    left: 355px;
+    height: 90px;
+    width: 200px;
+    margin: 1rem;
+  }
+  
+  .container__img4 {
+    top: 1300px;
+    left: 40px;
+    height: 90px;
+    width: 200px;
+    margin: 1rem;
+  }
+  
+  .container__img5 {
+    top: 1300px;
+    left: 255px;
+    height: 90px;
+    width: 200px;
+    margin: 1rem;
+  }
+  
+  .containerVS {
+    top: 15.2rem;
+    left: 4.5rem;
+    width: 35rem;
+    height: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .containerMain {
+    top: -50px;
+    left: 12rem;
+  }
+  .container__img {
+    top: 1150px;
+    left: -70px;
+    height: 90px;
+    width: 200px;
+    margin: 1rem;
+  }
+  
+  .container__img2 {
+    top: 1150px;
+    left: 143px;
+    height: 90px;
+    width: 200px;
+    margin: 1rem;
+  }
+  
+  .container__img3 {
+    top: 1150px;
+    left: 355px;
+    height: 90px;
+    width: 200px;
+    margin: 1rem;
+  }
+  
+  .container__img4 {
+    top: 1300px;
+    left: 40px;
+    height: 90px;
+    width: 200px;
+    margin: 1rem;
+  }
+  
+  .container__img5 {
+    top: 1300px;
+    left: 255px;
+    height: 90px;
+    width: 200px;
+    margin: 1rem;
+  }
+  
+  .containerVS {
+    top: 15.2rem;
+    left: 1.5rem;
+    width: 25rem;
+    height: auto;
+    display: flex;
+    margin: 1rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .containerMain {
+    top: -50px;
+    left: 8.5rem;
+  }
+  .container__img {
+    top: 1150px;
+    left: -70px;
+    height: 90px;
+    width: 200px;
+    margin: 1rem;
+  }
+  
+  .container__img2 {
+    top: 1150px;
+    left: 143px;
+    height: 90px;
+    width: 200px;
+    margin: 1rem;
+  }
+  
+  .container__img3 {
+    top: 1150px;
+    left: 355px;
+    height: 90px;
+    width: 200px;
+    margin: 1rem;
+  }
+  
+  .container__img4 {
+    top: 1150px;
+    left: 570px;
+    height: 90px;
+    width: 200px;
+    margin: 1rem;
+  }
+  
+  .container__img5 {
+    top: 1150px;
+    left: 785px;
+    height: 90px;
+    width: 200px;
+    margin: 1rem;
+  }
+  
+  .containerVS {
+    top: 15.2rem;
+    left: 8.5rem;
+    width: 30rem;
+    height: auto;
+    display: flex;
   }
 }
 
 @media (min-width: 1920px) {
-  .container{
-    position: relative;
-    top: 1400px;
-    left: -290px;
+  .containerMain {
+    top: 550px;
+    left: 10.5rem;
   }
-  
   .container__img {
-    position: absolute;
-    top: 450px;
-    left: 565px;
-    height: 150px;
+    top: 1150px;
+    left: -70px;
+    height: 100px;
+    width: 300px;
+    margin: 1rem;
   }
   
   .container__img2 {
-    position: absolute;
-    top: 450px;
-    left: 835px;
-    height: 150px;
+    top: 1150px;
+    left: 230px;
+    height: 100px;
+    width: 300px;
+    margin: 1rem;
   }
   
   .container__img3 {
-    position: absolute;
-    top: 450px;
-    left: 1010px;
-    height: 150px;
+    top: 1150px;
+    left: 525px;
+    height: 100px;
+    width: 300px;
+    margin: 1rem;
   }
   
   .container__img4 {
-    position: absolute;
-    top: 450px;
-    left: 1150px;
-    height: 150px;
+    top: 1150px;
+    left: 825px;
+    height: 100px;
+    width: 300px;
+    margin: 1rem;
   }
   
-  .container__black {
-    position: fixed;
-    width: 1920px;
-    height: 100%;
-    background-color: black;
-    z-index: -9;
-    top: 235px;
-    left: 0px;
-    opacity: 0.5;
+  .container__img5 {
+    top: 1150px;
+    left: 1125px;
+    height: 100px;
+    width: 300px;
+    margin: 1rem;
   }
   
-  .container__bg2 {
-    position: absolute;
-    height: 800PX;
-    left: 40px;
-    top: 10px;
-    width: 1800px;
-  }
-  
-  .fieldset1 {
-    position: static;
-    top: 500px;
+  .containerVS {
+    top: 19.2rem;
+    left: 4.5rem;
+    width: 48rem;
+    height: auto;
+    display: flex;
   }
 }
 
 @media (min-width: 2560px) {
-  .container{
-    position: relative;
-    top: 1200px;
-    left: -220px;
+  .containerMain {
+    top: 750px;
+    left: 18.5rem;
   }
-  
   .container__img {
-    position: absolute;
-    top: 550px;
-    left: 1165px;
-    height: 150px;
+    top: 1150px;
+    left: -70px;
+    height: 100px;
+    width: 300px;
+    margin: 1rem;
   }
   
   .container__img2 {
-    position: absolute;
-    top: 550px;
-    left: 1435px;
-    height: 150px;
+    top: 1150px;
+    left: 230px;
+    height: 100px;
+    width: 300px;
+    margin: 1rem;
   }
   
   .container__img3 {
-    position: absolute;
-    top: 550px;
-    left: 1610px;
-    height: 150px;
+    top: 1150px;
+    left: 525px;
+    height: 100px;
+    width: 300px;
+    margin: 1rem;
   }
   
   .container__img4 {
-    position: absolute;
-    top: 550px;
-    left: 1765px;
-    height: 150px;
+    top: 1150px;
+    left: 825px;
+    height: 100px;
+    width: 300px;
+    margin: 1rem;
   }
   
-  .container__black {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    z-index: -9;
-    top: 230px;
-    left: 0px;
-    opacity: 0.5;
+  .container__img5 {
+    top: 1150px;
+    left: 1125px;
+    height: 100px;
+    width: 300px;
+    margin: 1rem;
   }
-  
-  .container__bg2 {
-    position: absolute;
-    height: 1000PX;
-    left: 640px;
-    top: 10px;
-    max-width: 1800px;
-  }
-  
-  .fieldset1 {
-    position: static;
-    top: 1000px;
+
+  .containerVS {
+    top: 19.2rem;
+    left: 6.5rem;
+    width: 55rem;
+    height: auto;
+    display: flex;
   }
 }

@@ -1,500 +1,380 @@
 .contact {
   position: absolute;
-  font: var(--size-2xl) sans-serif;
+  font: var(--size-xs) sans-serif;
   z-index: 5;
-  top: -72rem;
+  margin: 2rem;
 }
 
 .contact__no {
   position: absolute;
-  width: 1.6rem;;
-  height: 1.6rem;
-  left: 1rem;
+  width: 0.9rem;
+  height: 0.9rem;
+  left: 1.5rem;
   z-index: 11;
   top: 0.3rem;
 }
 
 .contact__fb {
   position: absolute;
-  width: 1.5rem;
-  height: 1.5rem;
-  left: 1rem;
+  width: 0.9rem;
+  height: 0.9rem;
+  left: 1.5rem;
   z-index: 11;
-  top: 2.3rem;
-}
-
-.contact__shapeBG {
-  position: absolute;
-  background-color: var(--clr-gold);
-  top: 100.9rem;
-  width: 57.6rem;
-  height: 25rem;
-  z-index: -2;
-  left: -15px;
+  top: 1.3rem;
 }
 
 .table__about {
   position: absolute;
-  top: 6rem;
-  left: -2rem;
-  top: 174.6rem;
+  left: 1rem;
+  top: 104.6rem;
 }
 
 .table__quickLink {
   position: absolute;
-  top: 56rem;
-  left: 0.5rem;
-  top: 183.6rem;
+  left: 0.2rem;
+  top: 109.6rem;
 }
 
 .table__contact {
-  position: fixed;
-  left: -3.5rem;
-  top: 120.6rem;
+  position: absolute;
+  left: -0.4rem;
+  top: 114.6rem;
 }
 
 .table__detailAbout {
   position: absolute;
-  left: 9.5rem;
-  top: 174rem;
+  left: 4.5rem;
+  top: 104rem;
   z-index: 8;
 }
 
 .table__detailQuickLink {
   position: absolute;
-  left: 9.5rem;
-  top: 181.6rem;
+  left: 4.5rem;
+  top: 108.6rem;
 }
 
 .table__detailContact {
   position: absolute;
-  left: 9.3rem;
-  top: 191.6rem;
+  left: 4.3rem;
+  top: 113.9rem;
   z-index: 20;
+  padding-bottom: 4rem;
 }
 
 @media (min-width: 475px) {
   .contact {
-    position: fixed;
-    font: var(--size-2xl) sans-serif;
-    z-index: 5;
+    font: var(--size-xs) sans-serif;
+    margin: 2rem;
   }
   
   .contact__no {
-    position: fixed;
-    width: 1.6rem;;
-    height: 1.6rem;
-    left: 85.01rem;
-    z-index: 1;
-    top: 55.2rem;
+    width: 0.9rem;
+    height: 0.9rem;
+    left: 1.5rem;
+    top: 0.3rem;
   }
   
   .contact__fb {
-    position: fixed;
-    width: 1.5rem;
-    height: 1.5rem;
-    left: 85.01rem;
-    z-index: 1;
-    top: 57rem;
-  }
-  
-  .contact__shapeBG {
-    position: fixed;
-    background-color: var(--clr-gold);
-    top: 54.5rem;
-    width: 106.5rem;
-    height: 5rem;
-    z-index: 2;
+    width: 0.9rem;
+    height: 0.9rem;
+    left: 1.5rem;
+    top: 1.3rem;
   }
   
   .table__about {
-    position: fixed;
-    top: 56rem;
-    left: -7rem;
+    position: absolute;
+    left: 1rem;
+    top: 104.6rem;
   }
   
   .table__quickLink {
-    position: fixed;
-    top: 56rem;
-    left: 25rem;
+    left: 0.2rem;
+    top: 109.6rem;
   }
   
   .table__contact {
-    position: fixed;
-    top: 56rem;
-    left: 70rem;
+    left: -0.4rem;
+    top: 114.6rem;
   }
   
   .table__detailAbout {
-    position: fixed;
-    top: 54.9rem;
-    left: 13rem;
+    left: 4.5rem;
+    top: 104rem;
   }
   
   .table__detailQuickLink {
-    position: fixed;
-    top: 54.9rem;
-    left: 46rem;
+    left: 4.5rem;
+    top: 108.6rem;
   }
   
   .table__detailContact {
-    position: fixed;
-    top: 54.9rem;
-    left: 84.5rem;
+    left: 4.3rem;
+    top: 113.9rem;
   }
 }
 
 @media (min-width: 768px) {
   .contact {
-    position: fixed;
-    font: var(--size-2xl) sans-serif;
-    z-index: 5;
+    top: 22rem;
+    font: var(--size-xs) sans-serif;
+    margin: 2rem;
   }
   
   .contact__no {
-    position: fixed;
-    width: 1.6rem;;
-    height: 1.6rem;
-    left: 85.01rem;
-    z-index: 1;
-    top: 55.2rem;
+    width: 0.9rem;
+    height: 0.9rem;
+    left: 1.5rem;
+    top: 0.3rem;
   }
   
   .contact__fb {
-    position: fixed;
-    width: 1.5rem;
-    height: 1.5rem;
-    left: 85.01rem;
-    z-index: 1;
-    top: 57rem;
-  }
-  
-  .contact__shapeBG {
-    position: fixed;
-    background-color: var(--clr-gold);
-    top: 54.5rem;
-    width: 106.5rem;
-    height: 5rem;
-    z-index: 2;
+    width: 0.9rem;
+    height: 0.9rem;
+    left: 1.5rem;
+    top: 1.3rem;
   }
   
   .table__about {
-    position: fixed;
-    top: 56rem;
-    left: -7rem;
+    position: absolute;
+    left: 1rem;
+    top: 104.6rem;
   }
   
   .table__quickLink {
-    position: fixed;
-    top: 56rem;
-    left: 25rem;
+    left: 0.2rem;
+    top: 109.6rem;
   }
   
   .table__contact {
-    position: fixed;
-    top: 56rem;
-    left: 70rem;
+    left: -0.4rem;
+    top: 114.6rem;
   }
   
   .table__detailAbout {
-    position: fixed;
-    top: 54.9rem;
-    left: 13rem;
+    left: 4.5rem;
+    top: 104rem;
   }
   
   .table__detailQuickLink {
-    position: fixed;
-    top: 54.9rem;
-    left: 46rem;
+    left: 4.5rem;
+    top: 108.6rem;
   }
   
   .table__detailContact {
-    position: fixed;
-    top: 54.9rem;
-    left: 84.5rem;
+    left: 4.3rem;
+    top: 113.9rem;
   }
 }
 
 @media (min-width: 1024px) {
   .contact {
-    position: fixed;
-    font: var(--size-2xl) sans-serif;
-    z-index: 5;
+    top: -14rem;
+    font: var(--size-xl) sans-serif;
+    margin: 2rem;
   }
   
   .contact__no {
-    position: fixed;
-    width: 1.6rem;;
-    height: 1.6rem;
-    left: 85.01rem;
-    z-index: 1;
-    top: 55.2rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    left: 1.1rem;
+    top: 0.3rem;
   }
   
   .contact__fb {
-    position: fixed;
     width: 1.5rem;
     height: 1.5rem;
-    left: 85.01rem;
-    z-index: 1;
-    top: 57rem;
-  }
-  
-  .contact__shapeBG {
-    position: fixed;
-    background-color: var(--clr-gold);
-    top: 54.5rem;
-    width: 106.5rem;
-    height: 5rem;
-    z-index: 2;
+    left: 1.1rem;
+    top: 1.9rem;
   }
   
   .table__about {
-    position: fixed;
-    top: 56rem;
-    left: -7rem;
+    position: absolute;
+    left: 1rem;
+    top: 104.6rem;
   }
   
   .table__quickLink {
-    position: fixed;
-    top: 56rem;
-    left: 25rem;
+    left: 0.2rem;
+    top: 109.6rem;
   }
   
   .table__contact {
-    position: fixed;
-    top: 56rem;
-    left: 70rem;
+    left: -0.4rem;
+    top: 114.6rem;
   }
   
   .table__detailAbout {
-    position: fixed;
-    top: 54.9rem;
-    left: 13rem;
+    left: 7.5rem;
+    top: 104rem;
   }
   
   .table__detailQuickLink {
-    position: fixed;
-    top: 54.9rem;
-    left: 46rem;
+    left: 7.5rem;
+    top: 108.6rem;
   }
   
   .table__detailContact {
-    position: fixed;
-    top: 54.9rem;
-    left: 84.5rem;
+    left: 7.3rem;
+    top: 113.9rem;
   }
 }
 
 @media (min-width: 1440px) {
   .contact {
-    position: fixed;
-    font: var(--size-2xl) sans-serif;
-    z-index: 5;
+    top: -14rem;
+    font: var(--size-xl) sans-serif;
+    margin: 2rem;
   }
   
   .contact__no {
-    position: fixed;
-    width: 1.6rem;;
-    height: 1.6rem;
-    left: 85.01rem;
-    z-index: 1;
-    top: 55.2rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    left: 1.1rem;
+    top: 0.3rem;
   }
   
   .contact__fb {
-    position: fixed;
     width: 1.5rem;
     height: 1.5rem;
-    left: 85.01rem;
-    z-index: 1;
-    top: 57rem;
-  }
-  
-  .contact__shapeBG {
-    position: fixed;
-    background-color: var(--clr-gold);
-    top: 54.5rem;
-    width: 106.5rem;
-    height: 5rem;
-    z-index: 2;
+    left: 1.1rem;
+    top: 1.9rem;
   }
   
   .table__about {
-    position: fixed;
-    top: 56rem;
-    left: -7rem;
+    position: absolute;
+    left: 1rem;
+    top: 104.6rem;
   }
   
   .table__quickLink {
-    position: fixed;
-    top: 56rem;
-    left: 25rem;
+    left: 0.2rem;
+    top: 109.6rem;
   }
   
   .table__contact {
-    position: fixed;
-    top: 56rem;
-    left: 70rem;
+    left: -0.4rem;
+    top: 114.6rem;
   }
   
   .table__detailAbout {
-    position: fixed;
-    top: 54.9rem;
-    left: 13rem;
+    left: 7.5rem;
+    top: 104rem;
   }
   
   .table__detailQuickLink {
-    position: fixed;
-    top: 54.9rem;
-    left: 46rem;
+    left: 7.5rem;
+    top: 108.6rem;
   }
   
   .table__detailContact {
-    position: fixed;
-    top: 54.9rem;
-    left: 84.5rem;
+    left: 7.3rem;
+    top: 113.9rem;
   }
 }
 
 @media (min-width: 1920px) {
   .contact {
-    position: fixed;
-    font: var(--size-2xl) sans-serif;
-    z-index: 5;
+    top: 16rem;
+    font: var(--size-xl) sans-serif;
+    margin: 2rem;
   }
   
   .contact__no {
-    position: fixed;
-    width: 1.6rem;;
-    height: 1.6rem;
-    left: 99.01rem;
-    z-index: 1;
-    top: 56.7rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    left: 1.1rem;
+    top: 0.3rem;
   }
   
   .contact__fb {
-    position: fixed;
     width: 1.5rem;
     height: 1.5rem;
-    left: 99.01rem;
-    z-index: 1;
-    top: 58.6rem;
-  }
-  
-  .contact__shapeBG {
-    position: fixed;
-    background-color: var(--clr-gold);
-    top: 56.5rem;
-    width: 119rem;
-    height: 5rem;
-    z-index: 2;
+    left: 1.1rem;
+    top: 1.9rem;
   }
   
   .table__about {
-    position: fixed;
-    top: 57rem;
+    position: absolute;
     left: 1rem;
+    top: 104.6rem;
   }
   
   .table__quickLink {
-    position: fixed;
-    top: 57rem;
-    left: 35rem;
+    left: 0.2rem;
+    top: 109.6rem;
   }
   
   .table__contact {
-    position: fixed;
-    top: 57rem;
-    left: 84rem;
+    left: -0.4rem;
+    top: 114.6rem;
   }
   
   .table__detailAbout {
-    position: fixed;
-    top: 56.3rem;
-    left: 20rem;
+    left: 7.5rem;
+    top: 104rem;
   }
   
   .table__detailQuickLink {
-    position: fixed;
-    top: 56.3rem;
-    left: 55rem;
+    left: 7.5rem;
+    top: 108.6rem;
   }
   
   .table__detailContact {
-    position: fixed;
-    top: 56.5rem;
-    left: 98.5rem;
+    left: 7.3rem;
+    top: 113.9rem;
   }
 }
 
 @media (min-width: 2560px) {
   .contact {
-    position: fixed;
-    font: var(--size-2xl) sans-serif;
-    z-index: 5;
+    top: 30rem;
+    font: var(--size-xl) sans-serif;
+    margin: 2rem;
   }
   
   .contact__no {
-    position: fixed;
-    width: 1.6rem;;
-    height: 1.6rem;
-    left: 120.9rem;
-    z-index: 1;
-    top: 56.7rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    left: 1.1rem;
+    top: 0.3rem;
   }
   
   .contact__fb {
-    position: fixed;
     width: 1.5rem;
     height: 1.5rem;
-    left: 120.9rem;
-    z-index: 1;
-    top: 58.6rem;
-  }
-  
-  .contact__shapeBG {
-    position: fixed;
-    background-color: var(--clr-gold);
-    top: 56.5rem;
-    width: 159rem;
-    height: 5rem;
-    z-index: 2;
+    left: 1.1rem;
+    top: 1.9rem;
   }
   
   .table__about {
-    position: fixed;
-    top: 57rem;
-    left: 15rem;
+    position: absolute;
+    left: 1rem;
+    top: 104.6rem;
   }
   
   .table__quickLink {
-    position: fixed;
-    top: 57rem;
-    left: 48rem;
+    left: 0.2rem;
+    top: 109.6rem;
   }
   
   .table__contact {
-    position: fixed;
-    top: 57rem;
-    left: 105rem;
+    left: -0.4rem;
+    top: 114.6rem;
   }
   
   .table__detailAbout {
-    position: fixed;
-    top: 56.3rem;
-    left: 34rem;
+    left: 7.5rem;
+    top: 104rem;
   }
   
   .table__detailQuickLink {
-    position: fixed;
-    top: 56.3rem;
-    left: 69rem;
+    left: 7.5rem;
+    top: 108.6rem;
   }
   
   .table__detailContact {
-    position: fixed;
-    top: 56.5rem;
-    left: 120.5rem;
+    left: 7.3rem;
+    top: 113.9rem;
   }
 }
