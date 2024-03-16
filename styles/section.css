@@ -1,9 +1,9 @@
 .sectionIDart__img1 {
   position: absolute;
-  top: 830px;
-  left: 15px;
+  top: 800px;
+  left: -5px;
   z-index: -2;
-  width: 365px;
+  width: 330px;
   height: auto;
   padding-right: 16px;
   margin: 2rem;
@@ -13,45 +13,18 @@
   position: relative;
   height: 30px;
   width: 30px;
-  padding: 1px;
-  margin-bottom: 4px;
-  margin-left: 20px;
 }
 
-.PPW__Beruniform {
+.PPW {
   position: absolute;
-  font: var(--size-2xl) sans-serif;
-  top: 295px;
-  left: 250px;
+  font: var(--size-xxs) sans-serif;
+  top: 195px;
+  left: 5px;
   z-index: -5; 
   padding: 10px;
   margin: 1px;
   outline: 5px solid rgb(250, 0, 250);
-}
-
-.PPW__Akademik {
-  position: absolute;
-  font: var(--size-2xl) sans-serif;
-  top: 295px;
-  left: 1125px;
-  width: 595px;
-  z-index: -5;
-  padding: 10px;
-  margin: 1px;
-  outline: 5px solid rgb(250, 0, 250);
-}
-
-.PPW__Sukan {
-  position: absolute;
-  font: var(--size-2xl) sans-serif;
-  top: 527px;
-  left: 1125px;
-  width: 595px;
-  z-index: -5;
-  padding: 10px;
-  padding-right: 45px;
-  margin: 1px;
-  outline: 5px solid rgb(250, 0, 250);
+  max-width: 20 rem;
 }
 
 .borang__GantiKuliah {
