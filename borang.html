@@ -21,6 +21,11 @@
       footer {
         background-color: whitesmoke;
       }
+
+      th, td {
+        border: 1px solid black;
+        padding: 5px;
+      }
   
     </style>
   </head>
@@ -33,9 +38,42 @@
           UNIT KOKURIKULUM KAMPUS RAUB
         </h2>
       </header>
-    <div class="borang__GantiKuliah">
-      <embed src="pdf/BORANG GANTI KULIAH[1].pdf#toolbar=0" type="application/pdf" width="100%" height="500px" />
-    </div>
+      <div>
+        <table class="PPW" style="border: 1px solid black; border-collapse: collapse">
+          <thead>
+            <tr>
+              <th>BORANG</th>
+              <th>PDF</th>
+            </tr>
+          </thead>
+          <tbody style="border: 1px solid black">
+            <tr>
+              <td>BORANG GANTI KULIAH</td>
+              <td>
+                <a href="/public/pdf/BORANG_GANTI_KULIAH[1].pdf" target="_blank">
+                  <img class="sectionPPW__imgDW" src="/styles/media/download-pdf.png">
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>BORANG AKUAN TUNTUTAN</td>
+              <td>
+                <a href="/public/pdf/borang tuntutan penceramah (3).pdf" target="_blank">
+                  <img class="sectionPPW__imgDW" src="/styles/media/download-pdf.png">
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>BORANG AKUAN BAYARAN </td>
+              <td>
+                <a href="/public/pdf/borang akuan bayaran ceramah.pdf" target="_blank">
+                  <img class="sectionPPW__imgDW" src="/styles/media/download-pdf.png">
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
   <script type="module" src="./src/main.js">
   </script>
 
