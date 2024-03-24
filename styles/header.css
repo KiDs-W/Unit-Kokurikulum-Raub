@@ -2,27 +2,34 @@
   position: absolute;
 }
 
-.header { 
-  flex-direction: column;
-  margin: 0;
-  top: 0;
-}
-
 h2 {
   position: absolute;
   white-space: nowrap;
-  top: 145px;
-  left: 55px;
-  text-align: center;
+}
+
+h3 {
+  position: relative;
+  white-space: nowrap;
+  top: 2rem;
+}
+
+h4 {
+  position: relative;
+  color: darkblue;
+  margin: 2rem;
+  left: -34px;
 }
 
 .header__styles2 {
-  font: 48px sans-serif;
+  align-content: center;
   position: absolute;
-  margin: none;
+  top: 7rem;  
+  left: 50%;
   color: darkblue;
+  z-index: 1;
   font-size: var(--size-base);
-  z-index: -1;
+  padding: 20px;
+
 }
 
 .header__img {
@@ -38,19 +45,35 @@ body {
   background:#fff6f6;
 }
 
-@media (min-width: 475px) {  
-  h2 {
-    top: 145px;
-    left: 55px;
+@media (min-width: 320px) {  
+  .header__img {
+    width: 13rem;
+    height: 2.5rem;
+    left: 3.5rem;
+    top: 3rem;
   }
-  
+
   .header__styles2 {
-    font: 48px sans-serif;
-    font-size: var(--size-xl);
-    padding: 1rem;
-    padding-right: 2rem;
+    left: 1.5rem;
+    top: 6rem;   
   }
-  
+}
+
+@media (min-width: 425px) {  
+  .header__img {
+    width: 18rem;
+    height: 3.5rem;
+    left: 3.5rem;
+    top: 3rem;
+  }
+
+  .header__styles2 {
+    left: 2.5rem;
+    top: 7.5rem;   
+  }
+}
+
+@media (min-width: 475px) {  
   .header__img {
     width: 18rem;
     height: 3.5rem;
@@ -59,17 +82,12 @@ body {
   }
 }
 
-@media (min-width: 768px) {
-  h2 {
-    top: 145px;
-    left: 55px;
-  }
-  
+@media (min-width: 768px) {  
   .header__styles2 {
     font: 48px sans-serif;
     font-size: var(--size-3xl);
-    padding: 1rem;
-    padding-right: 2rem;
+    left: 3.5rem;
+    top: 8.5rem; 
   }
   
   .header__img {
@@ -110,8 +128,8 @@ body {
   .header__styles2 {
     font: 48px sans-serif;
     font-size: var(--size-6xl);
-    padding: 1rem;
-    padding-right: 2rem;
+    left: 7.5rem;
+    top: 9.5rem;
   }
   
   .header__img {
@@ -131,8 +149,8 @@ body {
   .header__styles2 {
     font: 48px sans-serif;
     font-size: var(--size-8xl);
-    padding: 1rem;
-    padding-right: 2rem;
+    left: 7.5rem;
+    top: 9.5rem;
   }
   
   .header__img {
@@ -152,8 +170,8 @@ body {
   .header__styles2 {
     font: 48px sans-serif;
     font-size: var(--size-9xl);
-    padding: 1rem;
-    padding-right: 2rem;
+    left: 7.5rem;
+    top: 9.5rem; 
   }
   
   .header__img {

@@ -53,6 +53,84 @@
   height: auto;
 }
 
+.preview1 {
+  position: absolute;
+  top: 6rem;
+  clip: rect(115px, 450px, 290px, 90px);
+}
+
+.preview__img{
+  width: 30rem;
+  margin: 2rem;
+  filter: brightness(0.5);
+}
+
+.preview2 {
+  position: absolute;
+  top: 20rem;
+  clip: rect(115px, 450px, 280px, 90px);
+}
+
+.preview1__btn {
+  position: absolute;
+  top: 17rem;
+  left: 9rem;
+}
+
+.preview2__btn {
+  position: absolute;
+  top: 31rem;
+  left: 9rem;
+}
+
+@media (min-width: 425px) {
+  .containerMain {
+    top: -100px;
+    left: -2rem;
+  }
+  .container__img {
+    top: 1150px;
+    left: 165px;
+    height: 50px;
+    width: 150px;
+  }
+  
+  .container__img2 {
+    top: 1255px;
+    left: 165px;
+    height: 50px;
+    width: 150px;
+  }
+  
+  .container__img3 {
+    top: 1360px;
+    left: 165px;
+    height: 50px;
+    width: 150px;
+  }
+  
+  .container__img4 {
+    top: 1465px;
+    left: 165px;
+    height: 50px;
+    width: 150px;
+  }
+  
+  .container__img5 {
+    top: 1570px;
+    left: 165px;
+    height: 50px;
+    width: 150px;
+  }
+  
+  .containerVS {
+    top: 12.2rem;
+    left: 2.5rem;
+    width: 21rem;
+    height: auto;
+  }
+}
+
 @media (min-width: 475px) {
   .containerMain {
     top: 0px;

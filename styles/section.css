@@ -11,15 +11,15 @@
 
 .sectionPPW__imgDW {
   position: relative;
-  height: 30px;
-  width: 30px;
+  height: 15px;
+  width: 15px;
 }
 
 .PPW {
   position: absolute;
-  font: var(--size-xxs) sans-serif;
-  top: 195px;
-  left: 5px;
+  font: 0.33rem sans-serif;
+  top: 145px;
+  left: -7px;
   z-index: -5; 
   padding: 10rem;
   margin: 1rem;
@@ -33,12 +33,69 @@
   left: 580px;
 }
 
+.section__canvas {
+  position: relative;
+  top: 10rem;
+}
+
 .jadual_Tarikh {
   position: absolute;
   top: 240px;
   left: 10px;
   width: 340px;
   height: 640px;
+}
+
+@media (min-width: 320px) {
+  .sectionIDart__img1 {
+    top: 775px;
+    left: -10px;
+    width: 405px;
+  }
+  .sectionPPW__imgDW {
+    height: 15px;
+    width: 15px;
+  }
+  .PPW {
+    font: 0.33rem sans-serif;
+    top: 145px;
+    left: 40px;
+    max-width: 20 rem;
+  }
+  .jadual_Tarikh {
+    position: absolute;
+    top: 240px;
+    left: 10px;
+    width: 440px;
+    height: 640px;
+  }
+}
+
+@media (min-width: 425px) {
+  .sectionIDart__img1 {
+    top: 785px;
+    left: -15px;
+    width: 405px;
+  }
+  .sectionPPW__imgDW {
+    height: 30px;
+    width: 30px;
+  }
+  
+  .PPW {
+    position: absolute;
+    font: 0.4rem sans-serif;
+    top: 195px;
+    left: 40px;
+    max-width: 20 rem;
+  }
+  .jadual_Tarikh {
+    position: absolute;
+    top: 240px;
+    left: 10px;
+    width: 440px;
+    height: 640px;
+  }
 }
 
 @media (min-width: 475px) {
@@ -93,6 +150,10 @@
     width: 640px;
     height: 640px;
   }
+  .section__canvas {
+    position: relative;
+    top: 13rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -120,6 +181,10 @@
     width: 790px;
     height: 640px;
   }
+  .section__canvas {
+    position: relative;
+    top: 15rem;
+  }
 }
 
 @media (min-width: 1440px) {
@@ -137,7 +202,7 @@
     position: absolute;
     font: var(--size-3xl) sans-serif;
     top: 295px;
-    left: 17px;
+    left: 67px;
     max-width: 20 rem;
   }
   .jadual_Tarikh {
@@ -146,6 +211,10 @@
     left: 10px;
     width: 1150px;
     height: 640px;
+  }
+  .section__canvas {
+    position: relative;
+    top: 20rem;
   }
 }
 
@@ -174,6 +243,11 @@
     width: 1150px;
     height: 940px;
   }
+
+  .section__canvas {
+    position: relative;
+    top: 20rem;
+  }
 }
 
 @media (min-width: 2560px) {
@@ -200,5 +274,10 @@
     left: 580px;
     width: 1150px;
     height: 940px;
+  }
+  
+  .section__canvas {
+    position: relative;
+    top: 20rem;
   }
 }
