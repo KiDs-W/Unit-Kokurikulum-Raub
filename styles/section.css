@@ -11,20 +11,22 @@
 
 .sectionPPW__imgDW {
   position: relative;
-  height: 15px;
-  width: 15px;
+  height: 25px;
+  width: 25px;
 }
 
 .PPW {
   position: absolute;
-  font: 0.33rem sans-serif;
-  top: 145px;
-  left: -7px;
+  font-size: 7px ;
+  top: 175px;
+  left: 10px;
   z-index: -5; 
-  padding: 10rem;
-  margin: 1rem;
   outline: 5px solid rgb(250, 0, 250);
-  max-width: 20 rem;
+}
+
+.PPW img{
+  display: inline;
+  margin: 0.1rem;
 }
 
 .surat__KEM {
@@ -48,53 +50,77 @@
 
 @media (min-width: 320px) {
   .sectionIDart__img1 {
-    top: 775px;
-    left: -10px;
-    width: 405px;
+    top: 715px;
+    left: -7px;
+    width: 300px;
   }
   .sectionPPW__imgDW {
     height: 15px;
     width: 15px;
   }
   .PPW {
-    font: 0.33rem sans-serif;
-    top: 145px;
-    left: 40px;
-    max-width: 20 rem;
-  }
-  .jadual_Tarikh {
     position: absolute;
-    top: 240px;
+    font-size: 10px ;
+    top: 175px;
     left: 10px;
-    width: 440px;
-    height: 640px;
+    z-index: -5; 
+    outline: 5px solid rgb(250, 0, 250);
+  }
+  
+  .PPW img{
+    display: inline;
+    margin: 0.15rem;
+  }
+}
+
+@media (min-width: 375px) {
+  .sectionIDart__img1 {
+    top: 670px;
+    left: 10px;
+    width: 280px;
+  }
+  .sectionPPW__imgDW {
+    height: 15px;
+    width: 15px;
+  }
+  .PPW {
+    position: absolute;
+    font-size: 10px ;
+    top: 175px;
+    left: 1px;
+    z-index: -5; 
+    outline: 5px solid rgb(250, 0, 250);
+  }
+  
+  .PPW img{
+    display: inline;
+    margin: 0.15rem;
   }
 }
 
 @media (min-width: 425px) {
   .sectionIDart__img1 {
     top: 785px;
-    left: -15px;
-    width: 405px;
+    left: 5px;
+    width: 350px;
   }
+
   .sectionPPW__imgDW {
     height: 30px;
     width: 30px;
   }
-  
   .PPW {
     position: absolute;
-    font: 0.4rem sans-serif;
-    top: 195px;
-    left: 40px;
-    max-width: 20 rem;
+    font-size: 15px ;
+    top: 175px;
+    left: 1px;
+    z-index: -5; 
+    outline: 5px solid rgb(250, 0, 250);
   }
-  .jadual_Tarikh {
-    position: absolute;
-    top: 240px;
-    left: 10px;
-    width: 440px;
-    height: 640px;
+  
+  .PPW img{
+    display: inline;
+    margin: 0.15rem;
   }
 }
 
@@ -111,17 +137,16 @@
   
   .PPW {
     position: absolute;
-    font: var(--size-xxs) sans-serif;
-    top: 195px;
-    left: 70px;
-    max-width: 20 rem;
+    font-size: 15px ;
+    top: 175px;
+    left: 1px;
+    z-index: -5; 
+    outline: 5px solid rgb(250, 0, 250);
   }
-  .jadual_Tarikh {
-    position: absolute;
-    top: 240px;
-    left: 10px;
-    width: 440px;
-    height: 640px;
+  
+  .PPW img{
+    display: inline;
+    margin: 0.15rem;
   }
 }
 
@@ -138,21 +163,16 @@
   
   .PPW {
     position: absolute;
-    font: var(--size-xs) sans-serif;
-    top: 295px;
-    left: 100px;
-    max-width: 20 rem;
+    font-size: 17px ;
+    top: 275px;
+    left: 80px;
+    z-index: -5; 
+    outline: 5px solid rgb(250, 0, 250);
   }
-  .jadual_Tarikh {
-    position: absolute;
-    top: 240px;
-    left: 10px;
-    width: 640px;
-    height: 640px;
-  }
-  .section__canvas {
-    position: relative;
-    top: 13rem;
+  
+  .PPW img{
+    display: inline;
+    margin: 0.15rem;
   }
 }
 
@@ -169,21 +189,16 @@
   
   .PPW {
     position: absolute;
-    font: var(--size-xl) sans-serif;
-    top: 295px;
-    left: 70px;
-    max-width: 20 rem;
+    font-size: 20px ;
+    top: 275px;
+    left: 80px;
+    z-index: -5; 
+    outline: 5px solid rgb(250, 0, 250);
   }
-  .jadual_Tarikh {
-    position: absolute;
-    top: 240px;
-    left: 10px;
-    width: 790px;
-    height: 640px;
-  }
-  .section__canvas {
-    position: relative;
-    top: 15rem;
+  
+  .PPW img{
+    display: inline;
+    margin: 0.15rem;
   }
 }
 
@@ -197,24 +212,18 @@
     height: 60px;
     width: 60px;
   }
-  
   .PPW {
     position: absolute;
-    font: var(--size-3xl) sans-serif;
-    top: 295px;
-    left: 67px;
-    max-width: 20 rem;
+    font-size: 25px ;
+    top: 275px;
+    left: 250px;
+    z-index: -5; 
+    outline: 5px solid rgb(250, 0, 250);
   }
-  .jadual_Tarikh {
-    position: absolute;
-    top: 240px;
-    left: 10px;
-    width: 1150px;
-    height: 640px;
-  }
-  .section__canvas {
-    position: relative;
-    top: 20rem;
+  
+  .PPW img{
+    display: inline;
+    margin: 0.15rem;
   }
 }
 
@@ -231,22 +240,16 @@
   
   .PPW {
     position: absolute;
-    font: var(--size-4xl) sans-serif;
-    top: 295px;
-    left: 87px;
-    max-width: 20 rem;
+    font-size: 35px ;
+    top: 325px;
+    left: 250px;
+    z-index: -5; 
+    outline: 5px solid rgb(250, 0, 250);
   }
-  .jadual_Tarikh {
-    position: absolute;
-    top: 300px;
-    left: 180px;
-    width: 1150px;
-    height: 940px;
-  }
-
-  .section__canvas {
-    position: relative;
-    top: 20rem;
+  
+  .PPW img{
+    display: inline;
+    margin: 0.15rem;
   }
 }
 
@@ -263,21 +266,15 @@
   
   .PPW {
     position: absolute;
-    font: var(--size-5xl) sans-serif;
-    top: 395px;
-    left: 137px;
-    max-width: 20 rem;
-  }
-  .jadual_Tarikh {
-    position: absolute;
-    top: 400px;
-    left: 580px;
-    width: 1150px;
-    height: 940px;
+    font-size: 45px ;
+    top: 425px;
+    left: 250px;
+    z-index: -5; 
+    outline: 5px solid rgb(250, 0, 250);
   }
   
-  .section__canvas {
-    position: relative;
-    top: 20rem;
+  .PPW img{
+    display: inline;
+    margin: 0.15rem;
   }
 }

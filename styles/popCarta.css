@@ -1,7 +1,7 @@
 .modalBox {
   position: fixed;
   font-family: Arial, Helvetica, sans-serif;
-  top: 0;
+  top: 45rem;
   right: 0;
   bottom: 0;
   left: 0;
@@ -63,94 +63,234 @@
 .popup-link {
   background-color: none;
   border: none;
-  color:var(--clr-purple);
+  color:white;
   text-align: center;
-  text-decoration: none;
+  text-decoration: underline;
   display: inline-block;
   font-size: 13px;
   cursor: pointer;
 }
 
-@media (min-width: 475px) {
+@media (min-width: 375px){
+  .modalBox {
+    top: 40rem;
+  }
+  
   /*Positioning of the child box*/
   .modalBox > div {
     width: 100%;
     width: 310px;
-    margin: 10% auto;
-    padding: 5px 20px 13px 20px;
-    border-radius: 0px;
     top: 100px;
     left: 30px;
-    z-index: 99;
+  }
+  
+  /*Positioning and style of the close button*/
+  .close {
+    line-height: 25px;
+    right: 1px;
+    top: 1px;
+    width: 35px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+  }
+  
+  /*Default style of the open pop-up button*/
+  .popup-link {
+    font-size: 13px;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 425px) {
+  .modalBox {
+    top: 38rem;
+  }
+  
   /*Positioning of the child box*/
   .modalBox > div {
     width: 100%;
-    width: 590px;
-    margin: 10% auto;
-    padding: 5px 20px 13px 20px;
-    border-radius: 0px;
+    width: 310px;
     top: 100px;
-    left: 50px;
-    z-index: 99;
+    left: 30px;
+  }
+  
+  /*Positioning and style of the close button*/
+  .close {
+    line-height: 25px;
+    right: 1px;
+    top: 1px;
+    width: 35px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    font-size: var(--size-xl);
+  }
+  
+  /*Default style of the open pop-up button*/
+  .popup-link {
+    font-size: var(--size-sm);
+  }
+}
+
+@media (min-width: 768px){
+  .modalBox {
+    top: 0.01rem;
+  }
+  
+  /*Positioning of the child box*/
+  .modalBox > div {
+    width: 100%;
+    width: 310px;
+    top: 100px;
+    left: 30px;
+  }
+  
+  /*Positioning and style of the close button*/
+  .close {
+    line-height: 25px;
+    right: 1px;
+    top: 1px;
+    width: 35px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    font-size: var(--size-2xl);
+  }
+  
+  /*Default style of the open pop-up button*/
+  .popup-link {
+    font-size: var(--size-xl);
   }
 }
 
 @media (min-width: 1024px) {
+  .modalBox {
+    top: 0.01rem;
+    left: 2rem;
+    width: 60rem;
+  }
+  
   /*Positioning of the child box*/
   .modalBox > div {
     width: 100%;
-    width: 750px;
-    margin: 10% auto;
-    padding: 5px 20px 13px 20px;
-    border-radius: 0px;
-    top: -70px;
-    left: 50px;
-    z-index: 99;
+    width: 310px;
+    top: 100px;
+    left: 30px;
+  }
+  
+  /*Positioning and style of the close button*/
+  .close {
+    line-height: 25px;
+    right: 1px;
+    top: 1px;
+    width: 35px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    font-size: var(--size-3xl);
+  }
+  
+  /*Default style of the open pop-up button*/
+  .popup-link {
+    font-size: var(--size-2xl);
   }
 }
 
 @media (min-width: 1440px) {
-    /*Positioning of the child box*/
-    .modalBox > div {
-      width: 100%;
-      width: 750px;
-      margin: 10% auto;
-      padding: 5px 20px 13px 20px;
-      border-radius: 0px;
-      top: -100px;
-      left: 250px;
-      z-index: 99;
-    }
+  .modalBox {
+    top: 0.01rem;
+    left: 7rem;
+    width: 50rem;
+  }
+  
+  /*Positioning of the child box*/
+  .modalBox > div {
+    width: 100%;
+    width: 310px;
+    top: 100px;
+    left: 30px;
+  }
+  
+  /*Positioning and style of the close button*/
+  .close {
+    line-height: 25px;
+    right: 1px;
+    top: 1px;
+    width: 35px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    font-size: var(--size-3xl);
+  }
+  
+  /*Default style of the open pop-up button*/
+  .popup-link {
+    font-size: var(--size-3xl);
+  }
 }
 
 @media (min-width: 1920px) {
-     /*Positioning of the child box*/
-     .modalBox > div {
-      width: 100%;
-      width: 750px;
-      margin: 10% auto;
-      padding: 5px 20px 13px 20px;
-      border-radius: 0px;
-      top: -170px;
-      left: 650px;
-      z-index: 99;
-    }
+  .modalBox {
+    top: 0.01rem;
+    left: 7rem;
+    width: 50rem;
+  }
+  
+  /*Positioning of the child box*/
+  .modalBox > div {
+    width: 100%;
+    width: 310px;
+    top: 100px;
+    left: 30px;
+  }
+  
+  /*Positioning and style of the close button*/
+  .close {
+    line-height: 25px;
+    right: 1px;
+    top: 1px;
+    width: 35px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    font-size: var(--size-3xl);
+  }
+  
+  /*Default style of the open pop-up button*/
+  .popup-link {
+    font-size: var(--size-4xl);
+  }
 }
 
 @media (min-width: 2560px) {
-     /*Positioning of the child box*/
-     .modalBox > div {
-      width: 100%;
-      width: 750px;
-      margin: 10% auto;
-      padding: 5px 20px 13px 20px;
-      border-radius: 0px;
-      top: -220px;
-      left: 750px;
-      z-index: 99;
-    }
+  .modalBox {
+    top: 0.01rem;
+    left: 51rem;
+    width: 51.5rem;
+  }
+  
+  /*Positioning of the child box*/
+  .modalBox > div {
+    width: 100%;
+    width: 310px;
+    top: 100px;
+    left: 30px;
+  }
+  
+  /*Positioning and style of the close button*/
+  .close {
+    line-height: 25px;
+    right: 1px;
+    top: 1px;
+    width: 35px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    font-size: var(--size-3xl);
+  }
+  
+  /*Default style of the open pop-up button*/
+  .popup-link {
+    font-size: var(--size-4xl);
+  }
 }

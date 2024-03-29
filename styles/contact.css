@@ -1,380 +1,181 @@
 .contact {
   position: absolute;
+  white-space: nowrap;
   font: var(--size-xs) sans-serif;
   z-index: 5;
-  margin: 2rem;
+  font-weight: 100;
+  top: 93rem;
+  width:auto;
 }
 
 .contact__no {
   position: absolute;
   width: 0.9rem;
   height: 0.9rem;
-  left: 1.5rem;
+  left: 8.5rem;
+  top: 10.3rem;  
   z-index: 11;
-  top: 0.3rem;
 }
 
 .contact__fb {
   position: absolute;
   width: 0.9rem;
   height: 0.9rem;
-  left: 1.5rem;
+  left: 8.5rem;
+  top: 11.3rem; 
   z-index: 11;
-  top: 1.3rem;
 }
 
-.table__about {
-  position: absolute;
-  left: 1rem;
-  top: 104.6rem;
-}
-
-.table__quickLink {
-  position: absolute;
-  left: 0.2rem;
-  top: 109.6rem;
-}
-
-.table__contact {
-  position: absolute;
-  left: -0.4rem;
-  top: 114.6rem;
-}
-
-.table__detailAbout {
-  position: absolute;
-  left: 4.5rem;
-  top: 104rem;
-  z-index: 8;
-}
-
-.table__detailQuickLink {
-  position: absolute;
-  left: 4.5rem;
-  top: 108.6rem;
-}
-
-.table__detailContact {
-  position: absolute;
-  left: 4.3rem;
-  top: 113.9rem;
-  z-index: 20;
-  padding-bottom: 4rem;
-}
-
-@media (min-width: 475px) {
+@media (min-width: 375px) {
   .contact {
     font: var(--size-xs) sans-serif;
-    margin: 2rem;
+    top: 93rem;
+    width: 19rem;
   }
   
   .contact__no {
     width: 0.9rem;
     height: 0.9rem;
-    left: 1.5rem;
-    top: 0.3rem;
+    left: 9.5rem;
+    top: 10.4rem;  
   }
   
   .contact__fb {
     width: 0.9rem;
     height: 0.9rem;
-    left: 1.5rem;
-    top: 1.3rem;
+    left: 9.5rem;
+    top: 11.5rem; 
+  }
+}
+
+@media (min-width: 425px) {
+  .contact {
+    font: var(--size-sm) sans-serif;
+    top: 97rem;
+    width: 21.4rem;
   }
   
-  .table__about {
-    position: absolute;
-    left: 1rem;
-    top: 104.6rem;
+  .contact__no {
+    width: 1rem;
+    height: 1rem;
+    left: 10rem;
+    top: 10.9rem;  
   }
   
-  .table__quickLink {
-    left: 0.2rem;
-    top: 109.6rem;
-  }
-  
-  .table__contact {
-    left: -0.4rem;
-    top: 114.6rem;
-  }
-  
-  .table__detailAbout {
-    left: 4.5rem;
-    top: 104rem;
-  }
-  
-  .table__detailQuickLink {
-    left: 4.5rem;
-    top: 108.6rem;
-  }
-  
-  .table__detailContact {
-    left: 4.3rem;
-    top: 113.9rem;
+  .contact__fb {
+    width: 1rem;
+    height: 1rem;
+    left: 10rem;
+    top: 12.2rem; 
   }
 }
 
 @media (min-width: 768px) {
   .contact {
-    top: 22rem;
-    font: var(--size-xs) sans-serif;
-    margin: 2rem;
+    font: var(--size-xl) sans-serif;
+    top: 127rem;
+    width: 38.6rem;
   }
   
   .contact__no {
-    width: 0.9rem;
-    height: 0.9rem;
-    left: 1.5rem;
-    top: 0.3rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    left: 16rem;
+    top: 12.8rem;  
   }
   
   .contact__fb {
-    width: 0.9rem;
-    height: 0.9rem;
-    left: 1.5rem;
-    top: 1.3rem;
-  }
-  
-  .table__about {
-    position: absolute;
-    left: 1rem;
-    top: 104.6rem;
-  }
-  
-  .table__quickLink {
-    left: 0.2rem;
-    top: 109.6rem;
-  }
-  
-  .table__contact {
-    left: -0.4rem;
-    top: 114.6rem;
-  }
-  
-  .table__detailAbout {
-    left: 4.5rem;
-    top: 104rem;
-  }
-  
-  .table__detailQuickLink {
-    left: 4.5rem;
-    top: 108.6rem;
-  }
-  
-  .table__detailContact {
-    left: 4.3rem;
-    top: 113.9rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    left: 16rem;
+    top: 14.6rem; 
   }
 }
 
 @media (min-width: 1024px) {
   .contact {
-    top: -14rem;
-    font: var(--size-xl) sans-serif;
-    margin: 2rem;
+    font: var(--size-2xl) sans-serif;
+    top: 90rem;
+    width: 51.45rem;
   }
   
   .contact__no {
-    width: 1.5rem;
-    height: 1.5rem;
-    left: 1.1rem;
-    top: 0.3rem;
+    width: 1.7rem;
+    height: 1.7rem;
+    left: 22rem;
+    top: 13.8rem;   
   }
   
   .contact__fb {
-    width: 1.5rem;
-    height: 1.5rem;
-    left: 1.1rem;
-    top: 1.9rem;
-  }
-  
-  .table__about {
-    position: absolute;
-    left: 1rem;
-    top: 104.6rem;
-  }
-  
-  .table__quickLink {
-    left: 0.2rem;
-    top: 109.6rem;
-  }
-  
-  .table__contact {
-    left: -0.4rem;
-    top: 114.6rem;
-  }
-  
-  .table__detailAbout {
-    left: 7.5rem;
-    top: 104rem;
-  }
-  
-  .table__detailQuickLink {
-    left: 7.5rem;
-    top: 108.6rem;
-  }
-  
-  .table__detailContact {
-    left: 7.3rem;
-    top: 113.9rem;
+    width: 1.7rem;
+    height: 1.7rem;
+    left: 22rem;
+    top: 15.8rem; 
   }
 }
 
 @media (min-width: 1440px) {
   .contact {
-    top: -14rem;
-    font: var(--size-xl) sans-serif;
-    margin: 2rem;
+    font: var(--size-3xl) sans-serif;
+    top: 80rem;
+    width: 72.5rem;
   }
   
   .contact__no {
-    width: 1.5rem;
-    height: 1.5rem;
-    left: 1.1rem;
-    top: 0.3rem;
+    width: 2rem;
+    height: 2rem;
+    left: 29rem;
+    top: 16.8rem;   
   }
   
   .contact__fb {
-    width: 1.5rem;
-    height: 1.5rem;
-    left: 1.1rem;
-    top: 1.9rem;
-  }
-  
-  .table__about {
-    position: absolute;
-    left: 1rem;
-    top: 104.6rem;
-  }
-  
-  .table__quickLink {
-    left: 0.2rem;
-    top: 109.6rem;
-  }
-  
-  .table__contact {
-    left: -0.4rem;
-    top: 114.6rem;
-  }
-  
-  .table__detailAbout {
-    left: 7.5rem;
-    top: 104rem;
-  }
-  
-  .table__detailQuickLink {
-    left: 7.5rem;
-    top: 108.6rem;
-  }
-  
-  .table__detailContact {
-    left: 7.3rem;
-    top: 113.9rem;
+    width: 2rem;
+    height: 2rem;
+    left: 29rem;
+    top: 19rem; 
   }
 }
 
 @media (min-width: 1920px) {
   .contact {
-    top: 16rem;
-    font: var(--size-xl) sans-serif;
-    margin: 2rem;
+    font: var(--size-4xl) sans-serif;
+    top: 120.9rem;
+    width: 97rem;
   }
   
   .contact__no {
-    width: 1.5rem;
-    height: 1.5rem;
-    left: 1.1rem;
-    top: 0.3rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    left: 37rem;
+    top: 20rem;   
   }
   
   .contact__fb {
-    width: 1.5rem;
-    height: 1.5rem;
-    left: 1.1rem;
-    top: 1.9rem;
-  }
-  
-  .table__about {
-    position: absolute;
-    left: 1rem;
-    top: 104.6rem;
-  }
-  
-  .table__quickLink {
-    left: 0.2rem;
-    top: 109.6rem;
-  }
-  
-  .table__contact {
-    left: -0.4rem;
-    top: 114.6rem;
-  }
-  
-  .table__detailAbout {
-    left: 7.5rem;
-    top: 104rem;
-  }
-  
-  .table__detailQuickLink {
-    left: 7.5rem;
-    top: 108.6rem;
-  }
-  
-  .table__detailContact {
-    left: 7.3rem;
-    top: 113.9rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    left: 37rem;
+    top: 22.9rem; 
   }
 }
 
 @media (min-width: 2560px) {
   .contact {
-    top: 30rem;
-    font: var(--size-xl) sans-serif;
-    margin: 2rem;
+    font: var(--size-4xl) sans-serif;
+    top: 130rem;
+    width: 134.9rem;
   }
   
   .contact__no {
-    width: 1.5rem;
-    height: 1.5rem;
-    left: 1.1rem;
-    top: 0.3rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    left: 51rem;
+    top: 20rem;   
   }
   
   .contact__fb {
-    width: 1.5rem;
-    height: 1.5rem;
-    left: 1.1rem;
-    top: 1.9rem;
-  }
-  
-  .table__about {
-    position: absolute;
-    left: 1rem;
-    top: 104.6rem;
-  }
-  
-  .table__quickLink {
-    left: 0.2rem;
-    top: 109.6rem;
-  }
-  
-  .table__contact {
-    left: -0.4rem;
-    top: 114.6rem;
-  }
-  
-  .table__detailAbout {
-    left: 7.5rem;
-    top: 104rem;
-  }
-  
-  .table__detailQuickLink {
-    left: 7.5rem;
-    top: 108.6rem;
-  }
-  
-  .table__detailContact {
-    left: 7.3rem;
-    top: 113.9rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    left: 51rem;
+    top: 22.9rem; 
   }
 }
