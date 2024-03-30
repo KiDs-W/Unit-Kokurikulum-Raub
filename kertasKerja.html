@@ -20,8 +20,11 @@
       }
 
       th, td {
-        border: 1px solid black;
-        padding: 5px;
+        border: 1px none black;
+      }
+
+      footer{
+        -webkit-text-fill-color: rgb(255, 255, 255);
       }
 
     </style>
@@ -37,7 +40,7 @@
       </header>
     </div>
     <div>
-      <table class="PPW" style="border: 1px solid black; border-collapse: collapse;">
+      <table class="PPW" style="width: 27vh; border: 1px solid black; border-collapse: collapse;">
         <thead>
           <tr>
             <th>JENIS KOR</th>
@@ -181,9 +184,50 @@
         </tbody>
       </table>
     </div>
-<div>
-  
-</div>
+    <div id="open-image" class="modalBox">
+      <!-- Content of the pop-up box, for example, the image -->
+      <img src="/styles/media/Carta.png" alt="Organisation Chart" />
+      <!-- Close button -->
+      <a class="close" href="#close">×</a>
+    </div>
+    <footer style="width:58vh;" class="contact">
+      <table style="border: none;width: 124%; border-collapse: collapse; margin-top: 2rem; background-color:#180d67;">
+        <tbody>
+          <tr>
+            <th style="padding: 0.5rem;">About:</th>
+            <td style="padding: 0.5rem;">
+              <ul style="text-align: left; list-style-type: none;">
+                <li><a href="https://pahang.uitm.edu.my/index.php/en">UiTM Pahang</a></li>
+                <li><a class="popup-link" href="#open-image">Organisation Chart</a></li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <th style="padding: 0.5rem;">Quick Links:</th>
+            <td style="padding: 0.5rem;">
+              <ul style="text-align: left; list-style-type: none;">
+                <li><a href="https://ufuture.uitm.edu.my/login">UFuture</a></li>
+                <li><a href="https://myfinancialsso.uitm.edu.my/fineportal/login#">FinePortal</a></li>
+                <li><a href="https://simsweb.uitm.edu.my/SPORTAL_APP/SPORTAL_LOGIN/index_login.htm">Student Portal</a></li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <th style="padding: 0.5rem;">Contact Us:</th>
+            <td style="padding: 0.5rem;">
+              <ul style="text-align: left; list-style-type: none;">
+                <li>09 - 351 5280<img class="contact__no" src="/styles/media/phone-ringing.png"></li>
+                <li>
+                  <a href="https://www.facebook.com/people/Unit-Kokurikulum-UiTM-Kampus-Raub/100091589515330/">
+                    <img class="contact__fb" src="/styles/media/facebook.png">Unit Kokurikulum Raub
+                  </a>
+                </li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </footer>
   </body>
   <script type="module" src="./src/main.js">
   </script>

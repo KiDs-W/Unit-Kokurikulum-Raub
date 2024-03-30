@@ -24,6 +24,16 @@
   outline: 5px solid rgb(250, 0, 250);
 }
 
+.PPW th {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.PPW td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
 .PPW img{
   display: inline;
   margin: 0.1rem;
@@ -163,9 +173,9 @@
   
   .PPW {
     position: absolute;
-    font-size: 17px ;
+    font-size: 11px ;
     top: 275px;
-    left: 80px;
+    left: 5px;
     z-index: -5; 
     outline: 5px solid rgb(250, 0, 250);
   }
