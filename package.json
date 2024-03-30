@@ -10,5 +10,109 @@
   },
   "devDependencies": {
     "vite": "^5.0.0"
+  },
+  "vercel": {
+    "rewrites": [
+      {
+        "source": "/public/pdf/PAUTAN SURAT KEM.pdf",
+        "destination": "/pdf/PAUTAN SURAT KEM.pdf"
+      },
+      {
+        "source": "/public/word/PPW KEM KESATRIA[DRAFT].docx",
+        "destination": "/word/PPW KEM KESATRIA[DRAFT].docx"
+      },
+      {
+        "source": "/public/pdf/PPW KEM KESATRIA[DRAFT].pdf",
+        "destination": "/pdf/PPW KEM KESATRIA[DRAFT].pdf"
+      },
+      {
+        "source": "/public/word/KERTAS_KERJA_LIBK_SIRI_51.docx",
+        "destination": "/word/KERTAS_KERJA_LIBK_SIRI_51.docx"
+      },
+      {
+        "source": "/public/pdf/KERTAS_KERJA_LIBK_SIRI_51.pdf",
+        "destination": "/pdf/KERTAS_KERJA_LIBK_SIRI_51.pdf"
+      },
+      {
+        "source": "/public/word/PPW_KEM_PART_1_SIRI_3[1].docx",
+        "destination": "/word/PPW_KEM_PART_1_SIRI_3[1].docx"
+      },
+      {
+        "source": "/public/pdf/PPW_KEM_PART_1_SIRI_3[1].pdf",
+        "destination": "/pdf/PPW_KEM_PART_1_SIRI_3[1].pdf"
+      },
+      {
+        "source": "/public/word/ppw part 2.docx",
+        "destination": "/word/ppw part 2.docx"
+      },
+      {
+        "source": "/public/pdf/ppw part 2[1].pdf",
+        "destination": "/pdf/ppw part 2[1].pdf"
+      },
+      {
+        "source": "/public/word/ppw part3 (1).docx",
+        "destination": "/word/ppw part3 (1).docx"
+      },
+      {
+        "source": "/public/pdf/ppw part3 (1).pdf",
+        "destination": "/pdf/ppw part3 (1).pdf"
+      },
+      {
+        "source": "/public/pdf/BOMBA.pdf",
+        "destination": "/pdf/BOMBA.pdf"
+      },
+      {
+        "source": "/public/word/BSM.docx",
+        "destination": "/word/BSM.docx"
+      },
+      {
+        "source": "/public/pdf/BSM.pdf",
+        "destination": "/pdf/BSM.pdf"
+      },
+      {
+        "source": "/public/word/PPW_BAKAL_PEGAWAI_2023[1].docx",
+        "destination": "/word/PPW_BAKAL_PEGAWAI_2023[1].docx"
+      },
+      {
+        "source": "/public/pdf/PPW_BAKAL_PEGAWAI_2023[1].pdf",
+        "destination": "/pdf/PPW_BAKAL_PEGAWAI_2023[1].pdf"
+      },
+      {
+        "source": "/public/pdf/file3.pdf",
+        "destination": "/new-path/file3.pdf"
+      },
+      {
+        "source": "/public/pdf/file2.pdf",
+        "destination": "/new-path/file2.pdf"
+      },
+      {
+        "source": "/public/word/KOR_AKADEMIK.docx",
+        "destination": "/word/KOR_AKADEMIK.docx"
+      },
+      {
+        "source": "/public/pdf/KOR_AKADEMIK.pdf",
+        "destination": "/pdf/KOR_AKADEMIK.pdf"
+      },
+      {
+        "source": "/public/pdf/file3.pdf",
+        "destination": "/new-path/file3.pdf"
+      },
+      {
+        "source": "/public/word/KOR_SUKAN.docx",
+        "destination": "/word/KOR_SUKAN.docx"
+      },
+      {
+        "source": "/public/pdf/KOR_SUKAN.pdf",
+        "destination": "/pdf/KOR_SUKAN.pdf"
+      },
+      {
+        "source": "/public/pdf/TUTORIAL PENGISIAN LAPORAN OBE CDL KURSUS KOKURIKULUM.pdf",
+        "destination": "/pdf/TUTORIAL PENGISIAN LAPORAN OBE CDL KURSUS KOKURIKULUM.pdf"
+      },
+      {
+        "source": "/public/pdf/TUTORIAL MENGISI LAPORAN RESULT “OVERALL ACHIEVEMENT” FAIR.pdf",
+        "destination": "/pdf/TUTORIAL MENGISI LAPORAN RESULT “OVERALL ACHIEVEMENT” FAIR.pdf"
+      }
+    ]
   }
 }
